@@ -1,3 +1,3 @@
 ## paxers
 
-Please use test for all testing purposes. Upload final code on features. main is clean working version.
+Please use test for all testing purposes. upload final code on features. main is clean working version.
