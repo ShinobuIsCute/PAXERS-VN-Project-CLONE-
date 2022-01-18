@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\main",
-    "\\main\\game"
+    "\\main\\game",
+    "\\testing 1\\game"
   ],
-  "SelectedNode": "\\main\\game\\script.rpy",
+  "SelectedNode": "\\testing 1",
   "PreviewInSolutionExplorer": false
 }

@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 101: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    (46 lines left)
+File "game/script.rpy", line 115: expected statement.
+    ??? "Ow! Hey, stop blocking the doorway! I’m trying to get to my rock climbing class!"
     ^
 
-Ren'Py Version: Ren'Py 7.4.10.2178
-Fri Jan 14 17:20:10 2022
+File "game/script.rpy", line 117: expected statement.
+    ??? "Are you an idiot? Of course we don’t! I said ‘class’ not ‘club’!"
+    ^
+
+File "game/script.rpy", line 119: expected statement.
+    ??? "Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
+    ^
+
+File "game/script.rpy", line 132: expected statement.
+    ??? "I’m Soleil, but seriously just leave me alone. I think you are being a bit too caring for a stranger."
+    ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Tue Jan 18 17:12:30 2022

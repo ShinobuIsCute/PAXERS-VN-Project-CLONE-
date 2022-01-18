@@ -1,15 +1,18 @@
 ﻿# The script of the game goes in this file.
 
+#Attempting to add the images
+image nyofu cute = "nyofu_cute.png"
+image soleil angry = "soleil_angry.png"
+
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+init:
 
-
-define mch = Character("[name]", color = "#808080")
-define tch = Character("Mr Jaffa", color = "#0000ff")
-define nrd = Character("Soleil", color = "#ff0000")
-define nyf = Character("Nyofu", color = "ffffff")
-
+    define mch = Character("[name]", color = "#808080")
+    define tch = Character("Mr Jaffa", color = "#0000ff")
+    define nrd = Character("Soleil", color = "#ff0000")
+    define nyf = Character("Nyofu", color = "ffffff")
 
 label start:
     python:
@@ -108,17 +111,19 @@ label lsp_1:
 
     jump day_2
 
-label day_2:
+label sch_1:
     "{i}I need to find out more about this problem before I can understand how to deal with it!{/i}"
 
         # ... the game continues here.
-    ??? "Ow! Hey, stop blocking the doorway! I’m trying to get to my rock climbing class!"
+    show soleil angry
+
+    "???" "Ow! Hey, stop blocking the doorway! I’m trying to get to my rock climbing class!"
     mch "Your what? I didn’t know we had a rock climbing club at this school."
-    ??? "Are you an idiot? Of course we don’t! I said ‘class’ not ‘club’!"
+    "???" "Are you an idiot? Of course we don’t! I said ‘class’ not ‘club’!"
     mch "You mean it’s not inside the school? Don’t go! It’s too dangerous outside right now!"
-    ??? "Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
+    "???" "Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
     menu:
-        "nrd""Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
+        "???""Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
 
         "Politely ask her not to go":
             jump ch121
@@ -129,17 +134,22 @@ label day_2:
 label ch121:
 
     mch "Please, I don’t even know your name but I really don’t want you to go missing like the others!"
-    ??? "I’m Soleil, but seriously just leave me alone. I think you are being a bit too caring for a stranger."
+    "???" "I’m Soleil, but seriously just leave me alone. I think you are being a bit too caring for a stranger."
     mch "I just want you to be safe, that’s all."
     "Soleil shows you a test paper with 100\% written on it."
     mch "Ummm"
-    Soleil "And that’s why you don’t talk to strangers you don’t know well. Sayonara."
+    nrd "And that’s why you don’t talk to strangers you don’t know well. Sayonara."
     mch "Soleil, wait! I, uh, I didn’t know you were so intelligent! Please forgive me for being an idiot."
+
+    hide soleil angry
+
     "Soleil is nowhere to be seen. Only a rolling cactus is there to hear your request."
     "{i}Well, it isn’t a surprise that no one wants to talk to me I guess. Maybe I should just go home for today and rest.{/i}"
 
     jump day_2
 
 label ch122:
-    "mch""Ok, I trust you."
+    mch "Ok, I trust you."
     "You watch her leave, but begin to trail her after she has walked a distance"
+
+    jump day_2
