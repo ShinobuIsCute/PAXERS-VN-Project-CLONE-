@@ -10,13 +10,13 @@ ScriptError: could not find label 'tco_1'.
 Full traceback:
   File "game/script.rpy", line 93, in script
     jump tco_1
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
+  File "C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/ast.py", line 1757, in execute
     rv = renpy.game.script.lookup(target)
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
+  File "C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/script.py", line 918, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
 ScriptError: could not find label 'tco_1'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
 main 1.0
-Fri Jan 14 19:07:31 2022
+Mon Jan 17 23:09:47 2022

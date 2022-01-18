@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\main",
+    "\\main\\game"
   ],
-  "SelectedNode": "\\message.md",
+  "SelectedNode": "\\main\\game\\script.rpy",
   "PreviewInSolutionExplorer": false
 }

@@ -112,11 +112,11 @@ label day_2:
     "{i}I need to find out more about this problem before I can understand how to deal with it!{/i}"
 
         # ... the game continues here.
-    nrd "Ow! Hey, stop blocking the doorway! I’m trying to get to my rock climbing class!"
+    ??? "Ow! Hey, stop blocking the doorway! I’m trying to get to my rock climbing class!"
     mch "Your what? I didn’t know we had a rock climbing club at this school."
-    nrd "Are you an idiot? Of course we don’t! I said ‘class’ not ‘club’!"
+    ??? "Are you an idiot? Of course we don’t! I said ‘class’ not ‘club’!"
     mch "You mean it’s not inside the school? Don’t go! It’s too dangerous outside right now!"
-    nrd "Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
+    ??? "Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
     menu:
         "nrd""Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
 
@@ -129,11 +129,11 @@ label day_2:
 label ch121:
 
     mch "Please, I don’t even know your name but I really don’t want you to go missing like the others!"
-    nrd "I’m Soleil, but seriously just leave me alone. I think you are being a bit too caring for a stranger."
+    ??? "I’m Soleil, but seriously just leave me alone. I think you are being a bit too caring for a stranger."
     mch "I just want you to be safe, that’s all."
     "Soleil shows you a test paper with 100\% written on it."
     mch "Ummm"
-    nrd "And that’s why you don’t talk to strangers you don’t know well. Sayonara."
+    Soleil "And that’s why you don’t talk to strangers you don’t know well. Sayonara."
     mch "Soleil, wait! I, uh, I didn’t know you were so intelligent! Please forgive me for being an idiot."
     "Soleil is nowhere to be seen. Only a rolling cactus is there to hear your request."
     "{i}Well, it isn’t a surprise that no one wants to talk to me I guess. Maybe I should just go home for today and rest.{/i}"
