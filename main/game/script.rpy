@@ -59,10 +59,10 @@ label cla_1:
     scene bg village
     "{i}Back then, I used to live in a small town outside of the city.{/i}"
     "{i}We didn't have much back then but we had plenty. I guess we were happy. I was happy.{/i}"
-    "{i}It all changed that one night. The whole town had disappeared except me.{/i}"
-    "{i}Months went by. No letters, phone calls, text messages, nothing. I didn't fathom as to what wrong I had done.{/i}"
+    "{i}It all changed that one night. The whole village disappeared, except me.{/i}"
+    "{i}Months went by. No letters, no phone calls, no text messages, nothing. I didn't fathom as to what wrong I had done.{/i}"
     "{i}I blamed myself for what had happened.{/i}"
-    "{i}I was too young. I couldn’t do anything. I didn’t understand anything.{/i}"
+    "{i}I was too young and weak. I couldn’t do anything. I didn’t understand anything.{/i}"
     "{i}But now..."
 
     # "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing. It was like they vanished into thin air. I always regret not being able to do anything for them, who knows what happened to them. {/i}"
@@ -74,7 +74,7 @@ label cla_1:
     "{i}But this time...{/i}"
 
     show mch determined
-    "{i}This time I can do something!{/i}"
+    "{i}I have a chance of stopping this!{/i}"
 
     show mch speaking at left
     show silhouettes at right
