@@ -7,8 +7,7 @@ image soleil angry = "soleil_angry.png"
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-
-#Hello world
+#hello 
 
 init:
 
