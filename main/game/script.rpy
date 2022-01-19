@@ -31,7 +31,7 @@ label cla_1:
 
 
     "*Background whispering*""Oh my god did you hear about that girl who went missing yesterday?"
-    "*Background whispering*""Are you serious? Another one? How long is this going to go on for"
+    "*Background whispering*""Are you serious? Another one? How long is this going to go on for?"
     "*Background whispering*""Maybe she just felt really sick and left the school?"
     "*Background whispering*""The teachers haven’t been doing anything about this! It’s been going on for weeks now! Isn’t this the third girl who has gone missing?"
     "*Background whispering*""If she was sick wouldn’t the teachers have known by now? They are acting like they don’t know anything."
