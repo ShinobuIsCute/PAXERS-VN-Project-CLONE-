@@ -172,6 +172,18 @@ label ch122:
     "{i}I need to find this person and interrogate them! They said this person hangs around afterschool near the teachers office?{/i}"
     "{i}Guess I’ll go and investigate that tomorrow.{/i}"
 
+    mch "WAIT, ITS NOT WHAT YOU THINK!"
+    "{i}I found myself staring at that girl's face once again. She found out I had been following her.{i}"
+    ??? "Disgusting. Repulsive. Abhorrent."
+    mch "I just want to find out more about these girls going missing, and it just so happened that I was following you."
+    ??? "Who would believe such a xxxxx story"
+    mch "I promise! I just found out that there is a suspicious person who hangs around the teachers office afterschool!"
+    ??? "Well either way, you admitted to be following me. You’re lucky I’m also interested in finding out who is behind all the missing girls. Thanks for the information. I hope it’s not who I think it is though."
+    mch "Uh, you’re welcome?"
+    ???"Can’t you tell when someone is being sarcastic!"
+        "Soleil scurries off into the distance."
+    "{i}I got a good amount of information today, I think we can call that a success!""
+    " You know there is a suspicious person, and you have meet a love interest, Soleil!"
     jump day_2
 
 label tco_1:
