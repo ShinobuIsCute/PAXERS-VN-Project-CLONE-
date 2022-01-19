@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\main",
+    "\\main\\game",
+    "\\testing 1\\game"
   ],
-  "SelectedNode": "\\message.md",
+  "SelectedNode": "\\testing 1",
   "PreviewInSolutionExplorer": false
 }
