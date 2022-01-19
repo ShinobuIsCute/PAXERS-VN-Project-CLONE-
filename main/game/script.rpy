@@ -37,7 +37,7 @@ style ita:
 
 label cla_1:
 
-    scene cla
+    scene bg classroom
     show silhouettes
 
 
@@ -45,7 +45,7 @@ label cla_1:
     "*Background whispering*""Are you serious? Another one? How long is this going to go on for?"
     "*Background whispering*""Maybe she just felt really sick and left the school?"
     "*Background whispering*""The teachers haven’t been doing anything about this! It’s been going on for weeks now! Isn’t this the third girl who has gone missing?"
-    "*Background whispering*""If she was sick wouldn’t the teachers have known by now? They are acting like they don’t know anything."
+    "*Background whispering*""If she was sick, wouldn’t the teachers have known by now? They are acting like they don’t know anything."
     "*Background whispering*""That’s right, the teachers would’ve called her parents by now. Maybe she isn’t missing?"
     "*Background whispering*""We won’t know for sure unless we ask the teachers!"
     "*Background whispering*""They always say \”It’s private information.\”"
@@ -55,13 +55,13 @@ label cla_1:
 
     "{i}I wish I could do something. I know I need to do something about this. I don’t want to regret being weak and unable to help like last time. Last time…{/i}"
 
-    scene bvg
+    scene bg village
 
     "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing. It was like they vanished into thin air. I always regret not being able to do anything for them, who knows what happened to them. {/i}"
     "{i}I...{/i}"
     "{i}I was too young. I couldn’t do anything. I didn’t understand anything.{/i}"
 
-    scene cla
+    scene bg classroom
     show mch thinking
     "{i}But this time...{/i}"
 
@@ -85,7 +85,7 @@ label cla_1:
 
     "Another wave of laughter erupts, and you feel blood rushing to your face"
 
-    scene ocl
+    scene bg hallway1
 
     "Mandatory classes end, and you ponder what to do with your spare time"
     "{i}I could try learning a spell. Prove everyone wrong. Well, they're right, but... anyways{/i}"
@@ -104,9 +104,10 @@ label cla_1:
             jump tco_1
 
 label lsp_1:
+    scene bg hallway2
     "You enter the afterschool practice hall"
-    "A large, wide corridor appears before you, the white and gold hall gleaming with reflected lights from the crystal chandeliers"
-    "The iconic white and gold has always been part of \"school's name\" prestigious image, but you've always found it \"opinion1\""
+    "A long, narrow corridor appears before you, the white and gold hall gleaming with reflected lights from the high-ceiling lamps."
+    "The iconic white and gold has always been part of \"school's name\" prestigious image, yet you've always found it \"opinion1\""
     "Either side of the hall are lined with strong, thick doors made of dark oak. They seem strangely strong. You see no sign of activity from behind the door, but whenever a door is opened bright flashes of light and sound from people practising their respective magic could be heard."
     "You walk down the hallway until you find an occupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
     "The room lies dauntingly empty save for the arcane etchings on the wall and floor."
