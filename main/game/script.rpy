@@ -160,6 +160,11 @@ label ch121:
 
 label ch122:
     mch "Ok, I trust you."
+    "You follow her to the rock climbing class"
     "You watch her leave, but begin to trail her after she has walked a distance"
+    "While following Soleil, you hear other students talking about suspicious activity"
+    "{i}Wait, what are they talking about? A suspicious person lurking around the school?{/i}"
+    "{i}I need to find this person and interrogate them! They said this person hangs around afterschool near the teachers office?{/i}"
+    "{i}Guess I’ll go and investigate that tomorrow.{/i}"
 
     jump day_2

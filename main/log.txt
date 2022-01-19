@@ -1,4 +1,4 @@
-Wed Jan 19 17:25:11 2022
+Wed Jan 19 17:29:15 2022
 Windows-10-10.0.19042
 Ren'Py 8.0.0.22011702n
  
@@ -6,9 +6,9 @@ Ren'Py 8.0.0.22011702n
 Bootstrap to the start of init.init took 0.04s
 Early init took 0.00s
 Loader init took 0.02s
-Loading error handling took 0.04s
-Loading script took 0.10s
-Loading save slot metadata. took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.08s
+Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ModuleNotFoundError("No module named '_renpysteam'")
 Running init code took 0.04s
@@ -18,11 +18,11 @@ Index archives took 0.00s
 Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.02s
+Initial gc. took 0.01s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
+Creating interface object took 0.22s
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
@@ -34,7 +34,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.08s
+Interface start took 0.09s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -44,57 +44,5 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'GeForce GTX 1660 Ti/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 461.72'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1738, 978) drawable=(1738, 978)
+Screen sizes: virtual=(1920, 1080) physical=(1738, 977) drawable=(1738, 977)
 Maximum texture size: 4096x4096
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-
-Full traceback:
-  File "game/script.rpy", line 122, in script
-    jump day_2
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk\renpy\ast.py", line 1773, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk\renpy\script.py", line 917, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'day_2'.
-
-While running game code:
-  File "game/script.rpy", line 122, in script
-    jump day_2
-ScriptError: could not find label 'day_2'.
-
-Full traceback:
-  File "game/script.rpy", line 159, in script
-    jump day_2
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk\renpy\ast.py", line 1773, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk\renpy\script.py", line 917, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'day_2'.
-
-While running game code:
-  File "game/script.rpy", line 159, in script
-    jump day_2
-ScriptError: could not find label 'day_2'.
-
-Full traceback:
-  File "game/script.rpy", line 159, in script
-    jump day_2
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk\renpy\ast.py", line 1773, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk\renpy\script.py", line 917, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'day_2'.
-
-While running game code:
-  File "game/script.rpy", line 159, in script
-    jump day_2
-ScriptError: could not find label 'day_2'.
