@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 52: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    """
+        # "*Background whispering*""We won’t know for sure unless we ask the teachers!"
+            ^
+        # "*Background whispering*""They always say \”It’s private information.\”"
+        """
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Wed Jan 19 18:48:50 2022
