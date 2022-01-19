@@ -1,4 +1,5 @@
 ﻿# The script of the game goes in this file.
+#test
 
 #Attempting to add the images
 image nyofu cute = "nyofu_cute.png"
