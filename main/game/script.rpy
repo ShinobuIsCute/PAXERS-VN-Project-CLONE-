@@ -41,13 +41,13 @@ label cla_1:
     scene bg classroom
     show silhouettes
 
-
     "*Background whispering*""Oh my god did you hear about that girl who went missing yesterday?"
-    "*Background whispering*""Are you serious? Another one? How long is this going to go on for?"
-    "*Background whispering*""Maybe she just felt really sick and left the school?"
+    "*Background whispering*""Are you serious? Another one?"
+    "*Background whispering*""Maybe she just felt really sick and left school?"
     "*Background whispering*""The teachers haven’t been doing anything about this! It’s been going on for weeks now! Isn’t this the third girl who has gone missing?"
-    "*Background whispering*""If she was sick, wouldn’t the teachers have known by now? They are acting like they don’t know anything."
-    "*Background whispering*""That’s right, the teachers would’ve called her parents by now. Maybe she isn’t missing?"
+    "*Background whispering*""If she really was sick, wouldn’t the teachers have known by now?"
+    "*Background whispering*""That’s right, the teachers would’ve called her parents by now."
+    "*Background whispering*""Maybe she isn’t missing?"
     "*Background whispering*""We won’t know for sure unless we ask the teachers!"
     "*Background whispering*""They always say \”It’s private information.\”"
 
@@ -57,17 +57,24 @@ label cla_1:
     "{i}I wish I could do something. I know I need to do something about this. I don’t want to regret being weak and unable to help like last time. Last time…{/i}"
 
     scene bg village
+    "{i}Back then, I used to live in a small town outside of the city.{/i}"
+    "{i}We didn't have much back then but we had plenty. I guess we were happy. I was happy.{/i}"
+    "{i}It all changed that one night. The whole village disappeared, except me.{/i}"
+    "{i}Months went by. No letters, no phone calls, no text messages, nothing. I didn't fathom as to what wrong I had done.{/i}"
+    "{i}I blamed myself for what had happened.{/i}"
+    "{i}I was too young and weak. I couldn’t do anything. I didn’t understand anything.{/i}"
+    "{i}But now..."
 
-    "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing. It was like they vanished into thin air. I always regret not being able to do anything for them, who knows what happened to them. {/i}"
-    "{i}I...{/i}"
-    "{i}I was too young. I couldn’t do anything. I didn’t understand anything.{/i}"
+    # "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing. It was like they vanished into thin air. I always regret not being able to do anything for them, who knows what happened to them. {/i}"
+    # "{i}I...{/i}"
+    # "{i}I was too young. I couldn’t do anything. I didn’t understand anything.{/i}"
 
     scene bg classroom
     show mch thinking
     "{i}But this time...{/i}"
 
     show mch determined
-    "{i}This time I can do something!{/i}"
+    "{i}I have a chance of stopping this!{/i}"
 
     show mch speaking at left
     show silhouettes at right
@@ -141,6 +148,10 @@ label sch_1:
 
         "Let her go and follow her":
             jump ch122
+
+label tco_1:
+    scene 
+
 
 label ch121:
 

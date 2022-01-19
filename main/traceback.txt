@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 105, in script
-    jump tco_1
-ScriptError: could not find label 'tco_1'.
+  File "game/script.rpy", line 129, in script
+    jump day_2
+ScriptError: could not find label 'day_2'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 105, in script
-    jump tco_1
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ast.py", line 1773, in execute
+  File "game/script.rpy", line 129, in script
+    jump day_2
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
     rv = renpy.game.script.lookup(target)
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\script.py", line 917, in lookup
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'tco_1'.
+ScriptError: could not find label 'day_2'.
 
-Windows-10-10.0.19042
-Ren'Py 8.0.0.22011702n
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
 donor 1.0
-Wed Jan 19 18:19:53 2022
+Wed Jan 19 19:21:48 2022
