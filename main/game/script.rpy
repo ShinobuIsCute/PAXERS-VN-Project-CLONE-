@@ -74,6 +74,7 @@ label cla_1:
 
     mch"Tell me more, I will try to find the missing girls. Give me all the information you know!"
 
+    play sound "audio/cat.mp3"
     "Laughter erupts"
 
     "From the crowd""Oh yeah? What are you going to do about it? Cast your that one spell you know?"
