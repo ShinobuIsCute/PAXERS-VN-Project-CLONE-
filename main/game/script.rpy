@@ -3,6 +3,10 @@
 
 #Attempting to add the images
 image nyofu cute = "nyofu_cute.png"
+image nyofu sad = "nyofu_sad.png"
+image nyofu angry = "nyofu_angry.png"
+image soleil happy = "soleil_happy.png"
+image soleil sad = "soleil_sad.png"
 image soleil angry = "soleil_angry.png"
 
 # Declare characters used by this game. The color argument colorizes the
@@ -109,7 +113,7 @@ label lsp_1:
     scene bg hallway2
     "You enter the afterschool practice hall"
     "A long, narrow corridor appears before you, the white and gold hall gleaming with reflected lights from the high-ceiling lamps."
-    "The iconic white and gold has always been part of \"school's name\" prestigious image, yet you've always found it \"opinion1\""
+    "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it \"opinion1\""
     "Either side of the hall are lined with strong, thick doors made of dark oak. They seem strangely strong. You see no sign of activity from behind the door, but whenever a door is opened bright flashes of light and sound from people practising their respective magic could be heard."
     "You walk down the hallway until you find an occupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
     "The room lies dauntingly empty save for the arcane etchings on the wall and floor."
@@ -169,3 +173,98 @@ label ch122:
     "{i}Guess I’ll go and investigate that tomorrow.{/i}"
 
     jump day_2
+
+label tco_1:
+    
+    "{i}Maybe I can get some information if I listen to what the teachers are talking about.{/i}"
+    "You go closer to the door and crouch down next to it"
+
+    scene bg teacher
+
+    "{i}I can’t hear much from here. Maybe I should sneak inside and try to find something relevant in the teachers office.{/i}"
+    "Someone falls onto you!"
+
+    show nyofu_sad
+
+    "???" "Ahhh! Errr, uhh, eeeeeeee!"
+    mch "Shhhhh!"
+    "You look at the perpetrator, a girl who looks like she is at the verge of tears"
+    mch "Let’s whisper here, ok?"
+
+    hide nyofu_sad
+    show nyofu_cute
+
+    "???" "Shh! Ok, Nyofu understand!"
+    mch "Well you are clearly being too loud..."
+    "Background" "Is someone there?"
+    "You take Nyofu’s hand and run down the hallway"
+
+    scene bg hallway1
+    
+    mch "Um, sorry about before, I’m %(name)s."
+    nyf "Nyofu! Nyofu think’s your hand is warm. Nyofu think’s your hand is a bit sweaty."
+
+    menu :
+        "Try to explain the situation to Nyofu":
+            jump ch131
+
+        "Tell Nyofu your hand wasn’t sweaty!":
+            jump ch132
+
+    hide nyofu_cute
+label ch131:
+
+    scene bg hallway1
+
+    show nyofu_cute
+
+    mch "Nyofu, I’m sure you know about the girls that are going missing. I’m here to try and get some information so I can find out where to look for these girls, or maybe something about the suspects."
+    nyf "Nyofu thinks you are doing the right thing! Nyofu still doesn’t know why MC’s hand was sweaty..."
+    mch "Uh, that was um..."
+    nyf "Nyofu thinks %(name)s has tried very hard today! Maybe that's why MC’s hand was sweaty."
+    mch "Wow! Nyofu you are so smart!"
+    "internal thoughts" "Wow, how can a girl be this dense? Well, I guess it’s for the better."
+    mch "I still need to get some more information, I haven’t found enough for today!"
+    nyf "Nyofu thinks there might be a suspicious person in the school. Nyofu has seen this suspicious person trespassing on the old school buildings immediately afterschool more than once!"
+    mch "You think it might be someone from the school? I guess I will take a look around the old school buildings tomorrow."
+
+    hide nyofu_cute
+    show nyofu_angry
+
+    nyf "Nyofu thinks you would have to be trespassing to get to the old school buildings..."
+    mch "Nyofu, you are right. Unfortunately, I have to do this. I can’t let my past demons keep me locked up in their grasp for my lifetime, I have to do as much as I can, so I don’t regret anything afterwards."
+    nyf "Nyofu thinks you might be the suspicious person..."
+    mch "What? How? I’m not suspicious!"
+    
+    hide nyofu_angry
+    show nyofu_cute
+
+    "You and Nyofu start laughing."
+    
+    hide nyofu_cute
+
+    jump day_2
+
+label ch132:
+
+    scene bg hallway1
+    
+    show nyofu_cute
+
+    mch "My hand wasn’t sweaty at all!"
+    nyf "....."
+    mch "Anyway, I need information on the girls that have recently gone missing from this school."
+    nyf "Nyofu doesn’t know anything interesting about that."
+    mch "Well if I can’t get information, I should try and become better at my magic skills! Nyofu, can you teach me your magic spell?"
+    nyf "Nyofu can help you learn a new magic spell!"
+
+    #MC LEARNS A NEW ICE SPELL HERE!!!
+
+    #scene of mc training spot
+
+    nyf "Nyofu has seen a suspicious person trespassing afterschool around the old school buildings."
+    mch "Thanks Nyofu! I’ll do my best to catch the suspects!"
+
+    hide nyofu_cute
+
+    "internal thoughts" "I guess I should look around the old school building afterschool tomorrow."
