@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Wed Jan 19 16:29:36 2022
 Windows-10-10.0.19042
 Ren'Py 8.0.0.22011702n
@@ -17,35 +18,143 @@ Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\sadat\\AppData\\Roaming/RenPy/backups\\main':
 Dump and make backups. took 0.04s
+=======
+Wed Jan 19 14:27:42 2022
+Windows-10-10.0.19044
+Ren'Py 8.0.0.22011701n
+ 
+
+Bootstrap to the start of init.init took 0.03s
+Early init took 0.00s
+Loader init took 0.01s
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_errorhandling.rpymc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_shaders.rpymc
+Loading error handling took 0.05s
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/000atl.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/000namespaces.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/000statements.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/000window.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00accessibility.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00achievement.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00action_audio.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00action_control.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00action_data.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00action_file.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00action_menu.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00action_other.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00audio.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00barvalues.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00build.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00compat.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00console.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00defaults.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00definitions.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00director.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00gallery.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00gamemenu.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00gamepad.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00gltest.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00gui.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00iap.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00icon.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00iconbutton.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00images.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00inputvalues.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00keymap.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00layeredimage.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00layout.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00library.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00matrixcolor.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00matrixtransform.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00mixers.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00mousedisplayable.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00musicroom.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00nvl_mode.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00obsolete.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00performance.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00placeholder.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00preferences.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00sideimage.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00splines.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00start.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00style.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00stylepreferences.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00themes.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00touchkeyboard.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00updater.rpyc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/00voice.rpyc
+Could not load C:\Users\prans\source\repos\PAXERS\main/game/gui.rpyc
+Could not load C:\Users\prans\source\repos\PAXERS\main/game/options.rpyc
+Could not load C:\Users\prans\source\repos\PAXERS\main/game/screens.rpyc
+Could not load C:\Users\prans\source\repos\PAXERS\main/game/script.rpyc
+Loading script took 0.86s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ModuleNotFoundError("No module named '_renpysteam'")
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_layout/screen_main_menu.rpymc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_layout/screen_load_save.rpymc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_layout/classic_navigation.rpymc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_layout/screen_yesno_prompt.rpymc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_layout/screen_preferences.rpymc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_layout/classic_joystick_preferences.rpymc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_developer/developer.rpymc
+Could not load C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk/renpy/common/_developer/inspector.rpymc
+Running init code took 0.09s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\prans\\AppData\\Roaming/RenPy/backups\\main':
+Dump and make backups. took 0.03s
+>>>>>>> 59b0de2833122ba237c1516bdf61e72a4a512ab2
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.01s
-DPI scale factor: 1.250000
+Initial gc. took 0.02s
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
+<<<<<<< HEAD
 Creating interface object took 0.22s
+=======
+Creating interface object took 0.16s
+>>>>>>> 59b0de2833122ba237c1516bdf61e72a4a512ab2
 Cleaning stores took 0.00s
-Init translation took 0.01s
+Init translation took 0.02s
 Build styles took 0.00s
 Load screen analysis took 0.00s
+<<<<<<< HEAD
 Analyze screens took 0.01s
 Save screen analysis took 0.01s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.01s
 Save bytecode. took 0.02s
 Running _start took 0.00s
+=======
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.01s
+>>>>>>> 59b0de2833122ba237c1516bdf61e72a4a512ab2
 Performance test:
-Interface start took 0.07s
+Interface start took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'NVIDIA Corporation'"
+<<<<<<< HEAD
 Renderer: b'GeForce GTX 1660 Ti/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 461.72'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1732, 975) drawable=(1732, 975)
+=======
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 497.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+>>>>>>> 59b0de2833122ba237c1516bdf61e72a4a512ab2
 Maximum texture size: 4096x4096
 0
 0
@@ -194,15 +303,24 @@ Screen sizes: virtual=(1920, 1080) physical=(1729, 972) drawable=(1729, 972)
 Maximum texture size: 4096x4096
 
 Full traceback:
+<<<<<<< HEAD
   File "game/script.rpy", line 121, in script
     jump day_2
   File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk\renpy\ast.py", line 1773, in execute
     rv = renpy.game.script.lookup(target)
   File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk\renpy\script.py", line 917, in lookup
+=======
+  File "game/script.rpy", line 104, in script
+    jump tco_1
+  File "C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk\renpy\ast.py", line 1773, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk\renpy\script.py", line 917, in lookup
+>>>>>>> 59b0de2833122ba237c1516bdf61e72a4a512ab2
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'day_2'.
+ScriptError: could not find label 'tco_1'.
 
 While running game code:
+<<<<<<< HEAD
   File "game/script.rpy", line 121, in script
     jump day_2
 ScriptError: could not find label 'day_2'.
@@ -306,3 +424,8 @@ While running game code:
   File "game/script.rpy", line 158, in script
     jump day_2
 ScriptError: could not find label 'day_2'.
+=======
+  File "game/script.rpy", line 104, in script
+    jump tco_1
+ScriptError: could not find label 'tco_1'.
+>>>>>>> 59b0de2833122ba237c1516bdf61e72a4a512ab2
