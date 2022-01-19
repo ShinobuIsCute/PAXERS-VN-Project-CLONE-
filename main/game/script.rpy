@@ -7,7 +7,13 @@ image soleil angry = "soleil_angry.png"
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-#hello 
+image bg classroom = "bg classroom.jpg"
+image bg canteen = "bg canteen.jpg"
+image bg hallway1 = "bg hallway 2.5.jpg"
+image bg hallway2 = "bg hallway narrow.jpg"
+image bg teacher = "bg teacher's door.jpg"
+image bg village = "bg village.jpg"
+
 
 init:
 
