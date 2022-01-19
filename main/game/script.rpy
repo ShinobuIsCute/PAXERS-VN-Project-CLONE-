@@ -48,12 +48,12 @@ label cla_1:
 
     "*Background whispering*""Oh my god did you hear about that girl who went missing yesterday?"
     "*Background whispering*""Are you serious? Another one? How long is this going to go on for?"
-    "*Background whispering*""Maybe she just felt really sick and left the school?"
+    "*Background whispering*""Maybe she just felt really sick and left school?"
     "*Background whispering*""The teachers haven’t been doing anything about this! It’s been going on for weeks now! Isn’t this the third girl who has gone missing?"
     "*Background whispering*""If she was sick, wouldn’t the teachers have known by now? They are acting like they don’t know anything."
     "*Background whispering*""That’s right, the teachers would’ve called her parents by now. Maybe she isn’t missing?"
     "*Background whispering*""We won’t know for sure unless we ask the teachers!"
-    "*Background whispering*""They always say \”It’s private information.\”"
+    "*Background whispering*""I tried many teachers. They always say \”It’s private information.\”"
 
     hide silhouettes
     show mch thinking
@@ -62,7 +62,8 @@ label cla_1:
 
     scene bg village
 
-    "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing. It was like they vanished into thin air. I always regret not being able to do anything for them, who knows what happened to them. {/i}"
+    "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing."
+    "{i}It was like they vanished into thin air. I always regret not being able to do anything for them, who knows what happened to them. {/i}"
     "{i}I...{/i}"
     "{i}I was too young. I couldn’t do anything. I didn’t understand anything.{/i}"
 
@@ -113,14 +114,15 @@ label lsp_1:
     scene bg hallway2
     "You enter the afterschool practice hall"
     "A long, narrow corridor appears before you, the white and gold hall gleaming with reflected lights from the high-ceiling lamps."
-    "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it \"opinion1\""
-    "Either side of the hall are lined with strong, thick doors made of dark oak. They seem strangely strong. You see no sign of activity from behind the door, but whenever a door is opened bright flashes of light and sound from people practising their respective magic could be heard."
+    "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it ugly."
+    "Either side of the hall are lined with strong, thick doors made of dark oak. They seem strangely strong."
+    "You see no sign of activity in the corridor, but whenever a door is opened bright flashes of light and sound from people practising their respective magic can be heard."
     "You walk down the hallway until you find an occupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
     "The room lies dauntingly empty save for the arcane etchings on the wall and floor."
     "The room appears to be both neverending yet cramped at the same time. You squint, trying to judge how far away the rooms are, only to feel more and more disoriented."
     "{i}Spatial Magic. Perhaps I could learn that first{/i}"
     "Some etching on the floor begin to glow, and water flows from them. The swirl until they form human shaped objects."
-    "{i}Training dummies. hmmmmm, water magic isn't bad either.{/i}"
+    "{i}Training dummies. hmmmmm, not bad. Not bad at all.{/i}"
 
     #IDK what the last spell should be so Ill leave this part until later
 
@@ -173,16 +175,16 @@ label ch122:
     "{i}Guess I’ll go and investigate that tomorrow.{/i}"
 
     mch "WAIT, ITS NOT WHAT YOU THINK!"
-    "{i}I found myself staring at that girl's face once again. She found out I had been following her.{i}"
-    ??? "Disgusting. Repulsive. Abhorrent."
+    "{i}I found myself staring at that girl's face once again. She found out I had been following her.{/i}"
+    "???" "Disgusting. Repulsive. Abhorrent."
     mch "I just want to find out more about these girls going missing, and it just so happened that I was following you."
-    ??? "Who would believe such a xxxxx story"
+    "???" "Who would believe such a xxxxx story"
     mch "I promise! I just found out that there is a suspicious person who hangs around the teachers office afterschool!"
-    ??? "Well either way, you admitted to be following me. You’re lucky I’m also interested in finding out who is behind all the missing girls. Thanks for the information. I hope it’s not who I think it is though."
+    "???" "Well either way, you admitted to be following me. You’re lucky I’m also interested in finding out who is behind all the missing girls. Thanks for the information. I hope it’s not who I think it is though."
     mch "Uh, you’re welcome?"
-    ???"Can’t you tell when someone is being sarcastic!"
-        "Soleil scurries off into the distance."
-    "{i}I got a good amount of information today, I think we can call that a success!""
+    "???" "Can’t you tell when someone is being sarcastic!"
+    "Soleil scurries off into the distance."
+    "{i}I got a good amount of information today, I think we can call that a success!{/i}"
     " You know there is a suspicious person, and you have meet a love interest, Soleil!"
     jump day_2
 

@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 52: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    """
-        # "*Background whispering*""We won’t know for sure unless we ask the teachers!"
-            ^
-        # "*Background whispering*""They always say \”It’s private information.\”"
-        """
+File "game/script.rpy", line 184: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    "Soleil scurries off into the distance."
+    ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Wed Jan 19 18:48:50 2022
+Thu Jan 20 12:45:33 2022
