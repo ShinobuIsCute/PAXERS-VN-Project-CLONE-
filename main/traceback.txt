@@ -10,13 +10,13 @@ ScriptError: could not find label 'day_2'.
 Full traceback:
   File "game/script.rpy", line 149, in script
     jump day_2
-  File "C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk\renpy\ast.py", line 1773, in execute
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
     rv = renpy.game.script.lookup(target)
-  File "C:\Users\prans\Downloads\Setups\renpy-7.4.10-sdk\renpy\script.py", line 917, in lookup
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
 ScriptError: could not find label 'day_2'.
 
-Windows-10-10.0.19044
-Ren'Py 8.0.0.22011701n
-main 1.0
-Tue Jan 18 18:41:17 2022
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+ 
+Wed Jan 19 14:48:10 2022
