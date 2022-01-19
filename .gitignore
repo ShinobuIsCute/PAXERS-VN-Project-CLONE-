@@ -2,3 +2,5 @@ debug.log
 errors.txt
 log.txt
 traceback.txt
+slnx.sqlite
+.vs/
