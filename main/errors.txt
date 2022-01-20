@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 184: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    "Soleil scurries off into the distance."
-    ^
+File "game/chapter02.rpy", line 28: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "I should try to find Soleil/(that girl yesterday), maybe she knows something useful? It's lunch break so she will probably be at the cafeteria."
+                                                                                                                                                     ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Thu Jan 20 12:45:33 2022
+Thu Jan 20 16:54:18 2022
