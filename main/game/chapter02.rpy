@@ -89,10 +89,6 @@ label ch221:
     
 label ch231:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> chapter2
 label ch241:
     "You make your way to the old highschool building."
 
