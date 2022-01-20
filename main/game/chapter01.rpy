@@ -3,7 +3,7 @@ label chapter01:
     scene bg classroom
     show silhouettes
 
-
+    play music normalDaySchool
     "*Background whispering*""Oh my god did you hear about that girl who went missing yesterday?"
     "*Background whispering*""Are you serious? Another one? How long is this going to go on for?"
     "*Background whispering*""Maybe she just felt really sick and left school?"
@@ -16,9 +16,12 @@ label chapter01:
     hide silhouettes
     show mch thinking
 
+    stop music fadeout 1.0
+
     "{i}I wish I could do something. I know I need to do something about this. I don’t want to regret being weak and unable to help like last time. Last time…{/i}"
 
     scene bg village
+    play music flashback
 
     "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing."
     "{i}It was like they vanished into thin air. I always regret not being able to do anything for them, who knows what happened to them. {/i}"
@@ -27,6 +30,9 @@ label chapter01:
 
     scene bg classroom
     show mch thinking
+
+    stop music fadeout 1.0
+    play music normalDaySchool
     "{i}But this time...{/i}"
 
     show mch determined
@@ -70,6 +76,8 @@ label chapter01:
 
 label lsp_1:
     scene bg hallway2
+    stop music fadeout 1.0
+    play music trainingRoomTheme
     "You enter the afterschool practice hall"
     "A long, narrow corridor appears before you, the white and gold hall gleaming with reflected lights from the high-ceiling lamps."
     "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it ugly."
