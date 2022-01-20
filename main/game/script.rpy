@@ -25,7 +25,7 @@ init:
     define mch = Character("[name]", color = "#808080")
     define tch = Character("Mr Jaffa", color = "#0000ff")
     define nrd = Character("Soleil", color = "#ff0000")
-    define nyf = Character("Nyofu", color = "ffffff")
+    define nyf = Character("Nyofu", color = "#ffffff")
 
 label start:
     python:
