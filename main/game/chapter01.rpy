@@ -3,7 +3,7 @@ label chapter01:
     scene bg classroom
     show silhouettes
 
-
+    play music normalDaySchool
     "*Background whispering*""Oh my god did you hear about that girl who went missing yesterday?"
     "*Background whispering*""Are you serious? Another one? How long is this going to go on for?"
     "*Background whispering*""Maybe she just felt really sick and left school?"
@@ -16,6 +16,7 @@ label chapter01:
     hide silhouettes
     show mch thinking
 
+    stop music fadeout 1.0
     "{i}I wish I could do something. I know I need to do something about this. I don’t want to regret being weak and unable to help like last time. Last time…{/i}"
 
     scene bg village
@@ -27,6 +28,8 @@ label chapter01:
 
     scene bg classroom
     show mch thinking
+
+    play music normalDaySchool
     "{i}But this time...{/i}"
 
     show mch determined
@@ -52,7 +55,6 @@ label chapter01:
 
     scene bg hallway1
 
-    play music "audio/music/normal day in the school.mp3"
     "Mandatory classes end, and you ponder what to do with your spare time"
     "{i}I could try learning a spell. Prove everyone wrong. Well, they're right, but... anyways{/i}"
     "{i}Or I could look around the school, look for clues. Never fails for scooby-doo.{/i}"
@@ -71,6 +73,8 @@ label chapter01:
 
 label lsp_1:
     scene bg hallway2
+    stop music fadeout 1.0
+    play music trainingRoomTheme
     "You enter the afterschool practice hall"
     "A long, narrow corridor appears before you, the white and gold hall gleaming with reflected lights from the high-ceiling lamps."
     "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it ugly."
