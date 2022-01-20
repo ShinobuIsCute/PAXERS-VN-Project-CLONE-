@@ -52,6 +52,7 @@ label chapter01:
 
     scene bg hallway1
 
+    play music "audio/music/normal day in the school.mp3"
     "Mandatory classes end, and you ponder what to do with your spare time"
     "{i}I could try learning a spell. Prove everyone wrong. Well, they're right, but... anyways{/i}"
     "{i}Or I could look around the school, look for clues. Never fails for scooby-doo.{/i}"
