@@ -234,11 +234,6 @@ label ch132:
 
     #scene of mc training spot
 
-    nyf "Nyofu has seen a suspicious person trespassing afterschool around the old school buildings."
-    mch "Thanks Nyofu! I’ll do my best to catch the suspects!"
-
     hide nyofu_cute
-
-    "internal thoughts" "I guess I should look around the old school building afterschool tomorrow."
 
     jump chapter02
