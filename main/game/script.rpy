@@ -38,7 +38,3 @@ label start:
 
     jump chapter01
 
-
-# style ita:
-#     italic True
-
