@@ -24,16 +24,16 @@ label chapter02:
             jump ch211
 
         #if statement (met Soleil i.e. ch121 or ch122)
-        "I should try to find Soleil/(that girl yesterday), maybe she knows something useful? It's lunch break so she will probably be at the cafeteria."
+        "I should try to find Soleil/(that girl yesterday), maybe she knows something useful? It's lunch break so she will probably be at the cafeteria.":
             jump ch221
         #if statement (met Soleil + clue i.e. ch122)
-        "{i}I should go and investigate the teachers office afterschool, I don't have enough time right now.{/i}"
+        "{i}I should go and investigate the teachers office afterschool, I don't have enough time right now.{/i}":
             jump ch231
         #if statement (met Nyofu + clue i.e. ch131)
-        "{i}Nyofu told me that there was someone suspicious hanging around afterschool at the old school buildings, I'll go and check them out after classes end today.{/i}"
+        "{i}Nyofu told me that there was someone suspicious hanging around afterschool at the old school buildings, I'll go and check them out after classes end today.{/i}":
             jump ch241
 
-label ch211
-label ch221
-label ch231
-label ch241
+label ch211:
+label ch221:
+label ch231:
+label ch241:
