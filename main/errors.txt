@@ -3,6 +3,7 @@ errors listed below, and try again.
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 File "game/chapter02.rpy", line 174: Menu does not contain any choices.
     menu:
          ^
@@ -16,6 +17,13 @@ File "game/chapter02.rpy", line 73: Line is followed by a block, despite not bei
                                                   ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
+=======
+File "game/chapter02.rpy", line 73: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Tell Nyofu that she looks cute with the halo"
+                                                  ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+>>>>>>> dc2f4799dafd314564519d117faa5052baaba7de
 Thu Jan 20 17:37:35 2022
 =======
 The label ch221 is defined twice, at File "game/chapter02.rpy", line 73:
@@ -33,4 +41,7 @@ label ch231:
 Ren'Py Version: Ren'Py 7.4.11.2266
 Thu Jan 20 17:42:26 2022
 >>>>>>> 71c33ab56606bd98ad0fc2f033c524cf0a594766
+<<<<<<< HEAD
+>>>>>>> dc2f4799dafd314564519d117faa5052baaba7de
+=======
 >>>>>>> dc2f4799dafd314564519d117faa5052baaba7de

@@ -89,6 +89,7 @@ label ch221:
     
 label ch231:
 
+<<<<<<< HEAD
 label ch241:
     "You make your way to the old highschool building."
 
@@ -232,3 +233,7 @@ label cha242_b:
 
 
 
+=======
+#
+label ch241:
+>>>>>>> dc2f4799dafd314564519d117faa5052baaba7de
