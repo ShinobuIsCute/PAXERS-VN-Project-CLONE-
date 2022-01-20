@@ -89,10 +89,7 @@ label ch213:
     
 label ch231:
 
-<<<<<<< HEAD
 #
-=======
->>>>>>> f534a8853cb2b73b3e8863ba8934aa71f0a98656
 label ch241:
     "You make your way to the old highschool building."
 
