@@ -72,7 +72,21 @@ label ch211:
             
             "Tell Nyofu that she looks cute with the halo":
                 jump ch213
+label ch212:
+    
+    mch "I'm sorry, I didn't realise that was a rude question to ask."
+    nyf "Nyofu forgives you! Nyofu thinks we should do something about these missing people!"
+
+    jump ch241
+
 label ch221:
+
+    mch "I think the halo looks cute on Nyofu, no matter what reason you have it for"
+    nyf "Nyofu is very happy to hear that but Nyofu is always cute even without the halo!"
+    mch "I can't argue with that!"
+    nyf "Nyofu thinks we should do something about the missing people! Nyofu was watching TV this morning and it said another person like Nyofu went missing!"
+    "{i}“Im not sure about the 'like Nyofu' part…{/i}"
+    
 label ch231:
 
 #
