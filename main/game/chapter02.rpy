@@ -24,11 +24,7 @@ label chapter02:
         "Is that Nyofu? What is she doing here? I should go and talk to her.":
             jump ch211
 
-<<<<<<< HEAD
         #if statement (met Soleil i.e. ch121 or ch122) !!! make sure the statement takes into account the Soleil/(that girl yesterday) part
-=======
-        #if statement (met Soleil i.e. ch121 or ch122)
->>>>>>> a13d1d915b18bde1354bb74bf07bf30a9f4e15d6
         "I should try to find Soleil/(that girl yesterday), maybe she knows something useful? It's lunch break so she will probably be at the cafeteria.":
             jump ch221
 
@@ -41,7 +37,6 @@ label chapter02:
             jump ch241
 
 label ch211:
-<<<<<<< HEAD
 
     #if statement (has not met Nyofu)
 
@@ -73,13 +68,8 @@ label ch211:
             "Apologise to Nyofu for asking a personal question":
                 jump ch122
             
-            "Tell Nyofu that she looks cute with the halo"
+            "Tell Nyofu that she looks cute with the halo":
                 jump ch123
 label ch221:
 label ch231:
-
-=======
-label ch221:
-label ch231:
->>>>>>> a13d1d915b18bde1354bb74bf07bf30a9f4e15d6
 label ch241:

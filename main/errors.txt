@@ -2,26 +2,17 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
-File "game/chapter02.rpy", line 28: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-=======
-<<<<<<< HEAD
-File "game/chapter01.rpy", line 20: play requires a file
-    play flashback
-                  ^
+The label ch221 is defined twice, at File "game/chapter02.rpy", line 73:
+label ch221:
+and File "game/chapter02.rpy", line 75:
+label ch221:
 
-Ren'Py Version: Ren'Py 8.0.0.22011702n
-Thu Jan 20 19:01:18 2022
-=======
-File "game/chapter02.rpy", line 27: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
->>>>>>> a13d1d915b18bde1354bb74bf07bf30a9f4e15d6
-    "I should try to find Soleil/(that girl yesterday), maybe she knows something useful? It's lunch break so she will probably be at the cafeteria."
-                                                                                                                                                     ^
+
+The label ch231 is defined twice, at File "game/chapter02.rpy", line 74:
+label ch231:
+and File "game/chapter02.rpy", line 76:
+label ch231:
+
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-<<<<<<< HEAD
-Thu Jan 20 16:54:18 2022
-=======
-Thu Jan 20 18:55:42 2022
->>>>>>> 07f25df1c7d4718e6e1791a472a07c9bad12f5be
->>>>>>> a13d1d915b18bde1354bb74bf07bf30a9f4e15d6
+Thu Jan 20 17:42:26 2022
