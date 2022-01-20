@@ -84,7 +84,7 @@ label lsp_1:
 
     #IDK what the last spell should be so Ill leave this part until later
 
-    jump day_2
+    jump chapter02
 
 label sch_1:
     "{i}I need to find out more about this problem before I can understand how to deal with it!{/i}"
@@ -121,7 +121,7 @@ label ch121:
     "Soleil is nowhere to be seen. Only a rolling cactus is there to hear your request."
     "{i}Well, it isn’t a surprise that no one wants to talk to me I guess. Maybe I should just go home for today and rest.{/i}"
 
-    jump day_2
+    jump chapter02
 
 label ch122:
     mch "Ok, I trust you."
@@ -144,7 +144,7 @@ label ch122:
     "Soleil scurries off into the distance."
     "{i}I got a good amount of information today, I think we can call that a success!{/i}"
     " You know there is a suspicious person, and you have meet a love interest, Soleil!"
-    jump day_2
+    jump chapter02
 
 label tco_1:
     
@@ -215,7 +215,7 @@ label ch131:
     
     hide nyofu_cute
 
-    jump day_2
+    jump chapter02
 
 label ch132:
 
@@ -240,3 +240,5 @@ label ch132:
     hide nyofu_cute
 
     "internal thoughts" "I guess I should look around the old school building afterschool tomorrow."
+
+    jump chapter02
