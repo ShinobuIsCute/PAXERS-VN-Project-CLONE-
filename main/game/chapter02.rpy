@@ -79,7 +79,7 @@ label ch212:
 
     jump ch241
 
-label ch221:
+label ch213:
 
     mch "I think the halo looks cute on Nyofu, no matter what reason you have it for"
     nyf "Nyofu is very happy to hear that but Nyofu is always cute even without the halo!"

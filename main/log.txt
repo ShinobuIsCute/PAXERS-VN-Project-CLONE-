@@ -1,47 +1,20 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Thu Jan 20 20:24:13 2022
-=======
-Thu Jan 20 17:46:17 2022
->>>>>>> dc2f4799dafd314564519d117faa5052baaba7de
-=======
-Thu Jan 20 20:24:13 2022
->>>>>>> chapter2
+Thu Jan 20 18:44:00 2022
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
  
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> chapter2
-Bootstrap to the start of init.init took 0.07s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-<<<<<<< HEAD
-=======
 Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.02s
 Loading error handling took 0.01s
-Loading script took 0.10s
+Loading script took 0.08s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.03s
->>>>>>> dc2f4799dafd314564519d117faa5052baaba7de
-=======
->>>>>>> chapter2
+Running init code took 0.04s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\prans\\AppData\\Roaming/RenPy/backups\\main':
 Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -49,40 +22,19 @@ Initial gc. took 0.01s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-<<<<<<< HEAD
-<<<<<<< HEAD
-Creating interface object took 0.18s
-=======
-Creating interface object took 0.14s
->>>>>>> dc2f4799dafd314564519d117faa5052baaba7de
-=======
-Creating interface object took 0.18s
->>>>>>> chapter2
+Creating interface object took 0.15s
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
 Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> chapter2
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-<<<<<<< HEAD
-=======
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.06s
->>>>>>> dc2f4799dafd314564519d117faa5052baaba7de
-=======
->>>>>>> chapter2
+Interface start took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -104,3 +56,17 @@ Maximum texture size: 4096x4096
 0
 0
 0
+
+Full traceback:
+  File "game/chapter02.rpy", line 107, in script
+    ila "Name’s Ilana. What’s yours?"
+  File "C:\Users\prans\Downloads\Setups\renpy-7.4.11-sdk.7z\renpy-7.4.11-sdk/renpy/ast.py", line 681, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\prans\Downloads\Setups\renpy-7.4.11-sdk.7z\renpy-7.4.11-sdk/renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'ila' is not defined.
+
+While running game code:
+  File "game/chapter02.rpy", line 107, in script
+    ila "Name’s Ilana. What’s yours?"
+Exception: Sayer 'ila' is not defined.
