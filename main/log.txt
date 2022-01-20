@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 Thu Jan 20 18:44:00 2022
+=======
+Thu Jan 20 20:39:38 2022
+>>>>>>> f534a8853cb2b73b3e8863ba8934aa71f0a98656
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
  
 
+<<<<<<< HEAD
 Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.02s
@@ -70,3 +75,7 @@ While running game code:
   File "game/chapter02.rpy", line 107, in script
     ila "Name’s Ilana. What’s yours?"
 Exception: Sayer 'ila' is not defined.
+=======
+Bootstrap to the start of init.init took 0.06s
+Early init took 0.00s
+>>>>>>> f534a8853cb2b73b3e8863ba8934aa71f0a98656
