@@ -142,7 +142,7 @@ label ch241_a:
 
     "{i}Someone was recently here. This place reeks of earth.{/i}"
 
-    jump cha242_b
+    jump cha241_b
 
 
 label cha241_b:
@@ -155,13 +155,13 @@ label cha241_b:
 
     if d20 < 10:
         "Your mind gets overwhelmed by the number of doors you see ahead. With no idea in mind, you check each door one by one."
-        $cha241Count = 0
+        $cha241Count = 5
         label cha241Loop:
-            if cha241 == 5:
-                jump cha242
+            if cha241Count == 10:
+                jump cha242_HOT
             else:
                 $ cha241Count += 1
-                "After trying %(cha241Count+5) doors, you still feel like this is not going anywhere."
+                "After trying %(cha241Count)s doors, you still feel like this is not going anywhere."
                 menu:
                     "Check the next door":
                         jump cha241Loop
@@ -185,6 +185,8 @@ label cha242:
     "Also with the fact that these knobs are old and the user must have had to hold it for a while before being able to open the door, you are sure that you will find the door that leads to the suspicious person."
 
     "{i}Several doors later..."
+
+label cha242_HOT:
 
     "A HOT KNOB!"
 
