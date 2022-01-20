@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapter02.rpy", line 27: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "I should try to find Soleil/(that girl yesterday), maybe she knows something useful? It's lunch break so she will probably be at the cafeteria."
-                                                                                                                                                     ^
+File "game/chapter02.rpy", line 174: Menu does not contain any choices.
+    menu:
+         ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Thu Jan 20 18:55:42 2022
+Thu Jan 20 20:21:59 2022

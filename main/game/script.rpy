@@ -26,6 +26,7 @@ init:
     define tch = Character("Mr Jaffa", color = "#0000ff")
     define nrd = Character("Soleil", color = "#ff0000")
     define nyf = Character("Nyofu", color = "#ffffff")
+    define ila = Character("Ilana", color = "#9562d6")
 
 label start:
     python:
@@ -36,5 +37,5 @@ label start:
         name = renpy.input("What is your name?")
         name = name.strip() or "The Nameless One"
 
-    jump chapter01
+    jump chapter02
 

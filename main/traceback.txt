@@ -1,22 +1,38 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/chapter01.rpy", line 124, in script
-    jump day_2
-ScriptError: could not find label 'day_2'.
+  File "renpy/common/00keymap.rpy", line 469, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 469, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+Exception: Could not pickle <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>. (perhaps store.random = <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter01.rpy", line 124, in script
-    jump day_2
-  File "C:\Users\prans\Downloads\Setups\renpy-7.4.11-sdk.7z\renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\prans\Downloads\Setups\renpy-7.4.11-sdk.7z\renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'day_2'.
+  File "renpy/common/00keymap.rpy", line 469, in script
+    python hide:
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00keymap.rpy", line 469, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/loadsave.py", line 420, in save
+    reraise(t, e, tb)
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/loadsave.py", line 401, in save
+    dump((roots, renpy.game.log), logf)
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/loadsave.py", line 49, in dump
+    cPickle.dump(o, f, cPickle.HIGHEST_PROTOCOL)
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/python.py", line 2342, in module_pickle
+    raise Exception("Could not pickle {!r}.".format(module))
+Exception: Could not pickle <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>. (perhaps store.random = <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>)
 
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
 donor 1.0
-Thu Jan 20 14:31:43 2022
+Thu Jan 20 20:24:05 2022
