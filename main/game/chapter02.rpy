@@ -87,8 +87,87 @@ label ch213:
     nyf "Nyofu thinks we should do something about the missing people! Nyofu was watching TV this morning and it said another person like Nyofu went missing!"
     "{i}“Im not sure about the 'like Nyofu' part…{/i}"
     
+    jump ch241
+
+label ch221:
+
+    "{i}I look around the canteen and see a slim female figure eating while … reading a book?{/i}"
+    
+    #if statement (if MC knows Soleil's name i.e. ch122)
+
+    nrd "Ah, the exile from yesterday? Sorry, I've just finished eating."
+    mch "Wait! I don’t mind if you don’t want to talk to me, just tell me if you know anything else about the missing girls!"
+    nrd "You do realise you are a very suspicious person? Well whatever, I could see you were earnestly trying to find clues yesterday. Go to the teachers office afterschool, I’ve heard that they occasionally discuss things in regards to missing girls."
+    mch "Wait you, you were stalking me? Thank you for the clue anyway, you should tell me where to find you if you want me report back to you."
+    nrd "You’ll find me here at lunchtime everyday. Feel free to come and get lectured if you are a masochist."
+    "{i}Wow, this girl has a twisted personality.{/i}"
+    nrd "You better come back with good information! Otherwise you’ll see me come after you…"
+    "Soleil glares angrily at the MC, scaring him into submission."
+
+    jump ch231
+
+    #else statement (if MC doesn't know Soleil's name i.e. ch121)
+
+    "???" "Ah, the exile from yesterday? Or should I say stalker? Sorry, I've just finished eating."
+    mch "Wait! I don’t mind if you don’t want to talk to me, just tell me if you know anything else about the missing girls!"
+    "???" "You do realise you are a very suspicious person? Well whatever, I could see you were earnestly trying to find clues yesterday. Go to the teachers office afterschool, I’ve heard that they occasionally discuss things in regards to missing girls."
+    mch "Wait you, you knew I was following you the whole time? Thank you for the clue anyway, you should tell me your name if you want me to find you again and report back to you."
+    "???" "I’m Soleil, part of the arcana class. You’ll find me here at lunchtime everyday. Feel free to come and get lectured if you are a masochist."
+    "{i}Wow, this girl has a twisted personality.{/i}"
+    nrd "You better come back with good information! Otherwise you’ll see me come after you…"
+    "Soleil glares angrily at the MC, scaring him into submission."
+
+    jump ch231
+
 label ch231:
 
+    "As the bell for the final period of the school ends, you casually walk outside the class …"
+    
+    #Scene hallway
+
+    "...into the hallway…"
+
+    #Scene teachers office (outside)
+
+    "...and then stand outside the teachers office."
+    "{i}I’ll sneak inside and try to find some clues - maybe a document that hasn’t been shred yet? I’d assume something like that would be near the shredder.{/i}"
+    "You sneak inside the teachers office, surprised to notice that there are only two teachers inside."
+
+    "???" "...I’m surprised their meeting is taking so long…"
+    "???" "....yes, maybe they are talking about the next…."
+    "???" "...I’ve heard from the others…"
+    "???" "...there might be an experiment tomorrow after school…"
+    "???" "...oh I’ve heard of that too…"
+    "???" "...it was going to be in the chem…"
+    "???" "...age room if I remember correctly…"
+
+    "{i}I need to make sure I don’t get found, that was definitely confidential information. From what I heard, I would deduce that something is going to happen in the chemistry storage room after school?{/i}"
+
+    menu:
+        "Look around the shredder for documents":
+            jump ch232
+        "Leave the teachers office":
+            jump ch233
+
+label ch232:
+    "You slowly make your way towards the shredder, as silently as you can. Now that you are next to it, you can see a document with some interesting information written on it."
+    "{i}What on earth is this! Another experiment the day after tomorrow in the gym? It’s written here that it will be the first time something like this has ever happened in the school’s history! I have to get out of here and go and train for this.{/i}"
+    
+    # MC learns a new spell here
+    
+    jump chapter03
+
+label ch233:
+
+    "{i}I can’t risk getting caught here, otherwise who knows what they’ll do to me! I should get out while they don’t know anything.{/i}"
+
+    # Scene outside teachers office
+    
+    mch "I should go and train for tomorrow, I can’t afford losing this battle!"
+
+    # MC learns a new spell here
+
+    jump chapter03
 #
 label ch241:
     "You make your way to the old highschool building."
@@ -233,5 +312,5 @@ label cha242_b:
         ".........................":
             ila "{i}waves her hand and smiles.{\i}"
 
-
+    jump chapter03
 

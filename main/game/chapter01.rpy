@@ -149,7 +149,7 @@ label ch122:
     "???" "Well either way, you admitted to be following me. You’re lucky I’m also interested in finding out who is behind all the missing girls. Thanks for the information. I hope it’s not who I think it is though."
     mch "Uh, you’re welcome?"
     "???" "Can’t you tell when someone is being sarcastic!"
-    "Soleil scurries off into the distance."
+    "The girl scurries off into the distance."
     "{i}I got a good amount of information today, I think we can call that a success!{/i}"
     " You know there is a suspicious person, and you have meet a love interest, Soleil!"
     jump chapter02

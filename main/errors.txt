@@ -2,21 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapter02.rpy", line 92: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/chapter02.rpy", line 93: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/chapter02.rpy", line 94: expected statement.
-    =======
-          ^
-
-File "game/chapter02.rpy", line 95: expected statement.
-    >>>>>>> chapter2
-                    ^
+File "game/chapter02.rpy", line 149: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Leave the teachers office"
+                               ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Thu Jan 20 20:39:38 2022
+Fri Jan 21 01:49:02 2022
