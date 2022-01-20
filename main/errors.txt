@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapter01.rpy", line 19: expected simple expression
-    stop music fadeout
-                      ^
+File "game/chapter01.rpy", line 20: play requires a file
+    play flashback
+                  ^
 
 Ren'Py Version: Ren'Py 8.0.0.22011702n
-Thu Jan 20 18:25:31 2022
+Thu Jan 20 19:01:18 2022

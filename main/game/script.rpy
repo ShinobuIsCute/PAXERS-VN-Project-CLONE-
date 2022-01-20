@@ -30,6 +30,7 @@ init:
     define insideTeacherOffice = "audio/music/inside the teachers office.mp3"
     define oldSchoolBuilding = "audio/music/old school buildings.mp3"
     define trainingRoomTheme = "audio/music/training room theme.mp3"
+    define flashback = "audio/music/flashback.mp3"
 
 label start:
     python:
