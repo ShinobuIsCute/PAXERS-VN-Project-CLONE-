@@ -115,9 +115,9 @@ label lsp_1:
     "You enter the afterschool practice hall"
     "A long, narrow corridor appears before you, the white and gold hall gleaming with reflected lights from the high-ceiling lamps."
     "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it ugly."
-    "Either side of the hall are lined with strong, thick doors made of dark oak. They seem strangely strong."
+    "One side of the hall is lined with strong, thick doors made of dark oak. They seem strangely strong."
     "You see no sign of activity in the corridor, but whenever a door is opened bright flashes of light and sound from people practising their respective magic can be heard."
-    "You walk down the hallway until you find an occupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
+    "You walk down the hallway until you find an unoccupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
     "The room lies dauntingly empty save for the arcane etchings on the wall and floor."
     "The room appears to be both neverending yet cramped at the same time. You squint, trying to judge how far away the rooms are, only to feel more and more disoriented."
     "{i}Spatial Magic. Perhaps I could learn that first{/i}"
@@ -215,7 +215,7 @@ label tco_1:
 
     scene bg hallway1
     
-    mch "Um, sorry about before, I’m %(name)s."
+    mch "Um, sorry about before, I’m %(name)s. What's your name?"
     nyf "Nyofu! Nyofu think’s your hand is warm. Nyofu think’s your hand is a bit sweaty."
 
     menu :
@@ -237,7 +237,7 @@ label ch131:
     mch "Uh, that was um..."
     nyf "Nyofu thinks %(name)s has tried very hard today! Maybe that's why MC’s hand was sweaty."
     mch "Wow! Nyofu you are so smart!"
-    "internal thoughts" "Wow, how can a girl be this dense? Well, I guess it’s for the better."
+    "{i}Wow, how can a girl be this dense? Well, I guess it’s for the better.{/i}"
     mch "I still need to get some more information, I haven’t found enough for today!"
     nyf "Nyofu thinks there might be a suspicious person in the school. Nyofu has seen this suspicious person trespassing on the old school buildings immediately afterschool more than once!"
     mch "You think it might be someone from the school? I guess I will take a look around the old school buildings tomorrow."
