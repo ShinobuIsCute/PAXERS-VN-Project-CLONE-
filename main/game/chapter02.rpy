@@ -53,7 +53,7 @@ label ch211:
     nyf "Nyofu will remember suspicious persons name now, bye bye."
     mch "Thank you for the clue Nyofu!"
     mch "Wait! Before you go, what's with the halo on your head?"
-    nyf "Nyofu's halo and head is nyofu's secret! Nyofu will tell you when the time is right."
+    nyf "Nyofu's halo and head is Nyofu's secret! Nyofu will tell you when the time is right."
     #else statement (has met Nyofu)
 
     mch "Hi, Nyofu. What are you doing around here?"
@@ -61,7 +61,7 @@ label ch211:
     mch "What?"
     nyf "{i}(Laughing){/i}"
     mch "I feel like I should've asked this yesterday, why do you have a halo on your head?"
-    nyf "Nyofu's halo is nyofu's secret! Nyofu will tell you when the time is right."
+    nyf "Nyofu's halo is Nyofu's secret! Nyofu will tell you when the time is right."
 
     #end of the if...else...statement 
 
