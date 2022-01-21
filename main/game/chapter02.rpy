@@ -7,65 +7,93 @@ label chapter02:
     "TV" "Another person has gone missing from Asteroth Academy while a missing person in a related case has just been found heavily injured and was recently taken to hospital via helicopter for urgent medical care"
     "{i}I can't let this happen to one of my classmates. I can't handle the regret knowing I could've at least tried to do something. Wait. What time is it? Oh no, I'm going to be late for school! I guess I'll have to skip breakfast to make it there on time.{/i}"
 
-    #scene MC classroom
+    scene bg classroom
 
     mch "That, must be, a new record, for me."
     mch "No one in the class says a word during the lecture, the atmosphere morbid, like a funeral for an insignificant human"
 
     "outside of classroom" "~Nyofuuuu~"
 
-    menu:
+    if met_nyf and d1_nyf_clue:
+        menu:
+            
+            "{i}Is that Nyofu? What is she doing here? I should go and talk to her.{/i}":
+                jump ch211
+            
+            "{i}Nyofu told me that there was someone suspicious hanging around afterschool at the old school buildings, I'll go and check them out after classes end today.{/i}":
+                jump ch241
 
-        #if statement (has not met Nyofu i.e. ch111 or ch121 or ch122)
-        "{i}What was that? I'm curious to know what kind of animal makes that sound!{/i}":
-            jump ch211
+    elif met_nyf:
+        menu:
+            
+            "{i}Is that Nyofu? What is she doing here? I should go and talk to her.{/i}":
+                jump ch211
 
-        #else statement (has met Nyofu i.e. ch131 or 132)
-        "Is that Nyofu? What is she doing here? I should go and talk to her.":
-            jump ch211
-            #
-        #if statement (met Soleil i.e. ch121 or ch122) !!! make sure the statement takes into account the Soleil/(that girl yesterday) part
-        #
-        "I should try to find Soleil/(that girl yesterday), maybe she knows something useful? It's lunch break so she will probably be at the cafeteria.":
-            jump ch221
+    elif met_sol and d1_sol_clue:
+        menu:
+            
+            "{i}What was that? I'm curious to know what kind of animal makes that sound!{/i}":
+                jump ch211
 
-        #if statement (met Soleil + clue i.e. ch122)
-        "{i}I should go and investigate the teachers office afterschool, I don't have enough time right now.{/i}":
-            jump ch231
+            "{i}I should try to find that girl yesterday, maybe she knows something useful? It's lunch break so she will probably be at the cafeteria.{/i}":
+                jump ch221
+            
+            "{i}I should go and investigate the teachers office afterschool, I don't have enough time right now.{/i}":
+                jump ch231
 
-        #if statement (met Nyofu + clue i.e. ch131)
-        "{i}Nyofu told me that there was someone suspicious hanging around afterschool at the old school buildings, I'll go and check them out after classes end today.{/i}":
-            jump ch241
+    elif met_sol:
+        menu:
+            
+            "{i}What was that? I'm curious to know what kind of animal makes that sound!{/i}":
+                jump ch211
+                
+            "{i}I should try to find that girl yesterday, maybe she knows something useful? It's lunch break so she will probably be at the cafeteria.{/i}":
+                jump ch221
 
+    else:
+        menu:
+            
+            "{i}What was that? I'm curious to know what kind of animal makes that sound!{/i}":
+                jump ch211
+        
 label ch211:
-    #
-
+    
+    scene bg hallway1
     #if statement (has not met Nyofu)
+    if not(met_nyf):
+        mch "Who are you?"
+        "???" "Nyofu is Nyofu!"
+        mch "You look so cheerful."
+        nyf "Nyofu is only cheerful on the outside. Nyofu wants to help the missing girls like Nyofu!"
+        "{i}I'm not sure about the 'like Nyofu' part...{/i}"
+        mch "I'm trying to find some clues about the girls that have gone missing as well. Do you know anyplace that I should go and investigate?"
+        nyf "Nyofu thinks you are suspicious. Nyofu thinks Nyofu saw someone suspicious around the old school buildings but not as suspicious as you."
+        mch "How am I suspicious? I guess I haven't introduced myself. I'm %(name)s."
+        nyf "Nyofu will remember suspicious persons name now, bye bye."
+        mch "Thank you for the clue Nyofu!"
+        mch "Wait! Before you go, what's with the halo on your head?"
+        nyf "Nyofu's halo and head is Nyofu's secret! Nyofu will tell you when the time is right."
 
-    mch "Who are you?"
-    "???" "Nyofu is Nyofu!"
-    mch "You look so cheerful."
-    nyf "Nyofu is only cheerful on the outside. Nyofu wants to help the missing girls like Nyofu!"
-    "{i}I'm not sure about the 'like Nyofu' part...{/i}"
-    mch "I'm trying to find some clues about the girls that have gone missing as well. Do you know anyplace that I should go and investigate?"
-    nyf "Nyofu thinks you are suspicious. Nyofu thinks Nyofu saw someone suspicious around the old school buildings but not as suspicious as you."
-    mch "How am I suspicious? I guess I haven't introduced myself. I'm %(name)s."
-    nyf "Nyofu will remember suspicious persons name now, bye bye."
-    mch "Thank you for the clue Nyofu!"
-    mch "Wait! Before you go, what's with the halo on your head?"
-    nyf "Nyofu's halo and head is Nyofu's secret! Nyofu will tell you when the time is right."
+        menu:
+
+            "Apologise to Nyofu for asking a personal question":
+                jump ch212
+            
+            "Tell Nyofu that she looks cute with the halo":
+                jump ch213
+
     #else statement (has met Nyofu)
-
-    mch "Hi, Nyofu. What are you doing around here?"
-    nyf "Nyofu thinks you've been sleeping too much."
-    mch "What?"
-    nyf "{i}(Laughing){/i}"
-    mch "I feel like I should've asked this yesterday, why do you have a halo on your head?"
-    nyf "Nyofu's halo is Nyofu's secret! Nyofu will tell you when the time is right."
+    else:
+        mch "Hi, Nyofu. What are you doing around here?"
+        nyf "Nyofu thinks you've been sleeping too much."
+        mch "What?"
+        nyf "{i}(Laughing){/i}"
+        mch "I feel like I should've asked this yesterday, why do you have a halo on your head?"
+        nyf "Nyofu's halo is Nyofu's secret! Nyofu will tell you when the time is right."
 
     #end of the if...else...statement 
 
-    menu:
+        menu:
 
             "Apologise to Nyofu for asking a personal question":
                 jump ch212
@@ -91,45 +119,53 @@ label ch213:
 
 label ch221:
 
+    scene bg canteen
+
     "{i}I look around the canteen and see a slim female figure eating while … reading a book?{/i}"
     
-    #if statement (if MC knows Soleil's name i.e. ch122)
+    if know_sol_name:
 
-    nrd "Ah, the exile from yesterday? Sorry, I've just finished eating."
-    mch "Wait! I don’t mind if you don’t want to talk to me, just tell me if you know anything else about the missing girls!"
-    nrd "You do realise you are a very suspicious person? Well whatever, I could see you were earnestly trying to find clues yesterday. Go to the teachers office afterschool, I’ve heard that they occasionally discuss things in regards to missing girls."
-    mch "Wait you, you were stalking me? Thank you for the clue anyway, you should tell me where to find you if you want me report back to you."
-    nrd "You’ll find me here at lunchtime everyday. Feel free to come and get lectured if you are a masochist."
-    "{i}Wow, this girl has a twisted personality.{/i}"
-    nrd "You better come back with good information! Otherwise you’ll see me come after you…"
-    "Soleil glares angrily at the MC, scaring him into submission."
+        nrd "Ah, the exile from yesterday? Sorry, I've just finished eating."
+        mch "Wait! I don’t mind if you don’t want to talk to me, just tell me if you know anything else about the missing girls!"
+        nrd "You do realise you are a very suspicious person? Well whatever, I could see you were earnestly trying to find clues yesterday. Go to the teachers office afterschool, I’ve heard that they occasionally discuss things in regards to missing girls."
+        mch "Wait you, you were stalking me? Thank you for the clue anyway, you should tell me where to find you if you want me report back to you."
+        nrd "You’ll find me here at lunchtime everyday. Feel free to come and get lectured if you are a masochist."
+        "{i}Wow, this girl has a twisted personality.{/i}"
+        nrd "You better come back with good information! Otherwise you’ll see me come after you…"
+        "Soleil glares angrily at the MC, scaring him into submission."
 
-    jump ch231
+        jump ch231
 
     #else statement (if MC doesn't know Soleil's name i.e. ch121)
+    else:
+    
+        "???" "Ah, the exile from yesterday? Or should I say stalker? Sorry, I've just finished eating."
+        mch "Wait! I don’t mind if you don’t want to talk to me, just tell me if you know anything else about the missing girls!"
+        "???" "You do realise you are a very suspicious person? Well whatever, I could see you were earnestly trying to find clues yesterday. Go to the teachers office afterschool, I’ve heard that they occasionally discuss things in regards to missing girls."
+        mch "Wait you, you knew I was following you the whole time? Thank you for the clue anyway, you should tell me your name if you want me to find you again and report back to you."
+        "???" "I’m Soleil, part of the arcana class. You’ll find me here at lunchtime everyday. Feel free to come and get lectured if you are a masochist."
+        "{i}Wow, this girl has a twisted personality.{/i}"
+        nrd "You better come back with good information! Otherwise you’ll see me come after you…"
+        "Soleil glares angrily at the MC, scaring him into submission."
 
-    "???" "Ah, the exile from yesterday? Or should I say stalker? Sorry, I've just finished eating."
-    mch "Wait! I don’t mind if you don’t want to talk to me, just tell me if you know anything else about the missing girls!"
-    "???" "You do realise you are a very suspicious person? Well whatever, I could see you were earnestly trying to find clues yesterday. Go to the teachers office afterschool, I’ve heard that they occasionally discuss things in regards to missing girls."
-    mch "Wait you, you knew I was following you the whole time? Thank you for the clue anyway, you should tell me your name if you want me to find you again and report back to you."
-    "???" "I’m Soleil, part of the arcana class. You’ll find me here at lunchtime everyday. Feel free to come and get lectured if you are a masochist."
-    "{i}Wow, this girl has a twisted personality.{/i}"
-    nrd "You better come back with good information! Otherwise you’ll see me come after you…"
-    "Soleil glares angrily at the MC, scaring him into submission."
-
-    jump ch231
+        jump ch231
 
 label ch231:
 
+    scene bg classroom
+
     "As the bell for the final period of the school ends, you casually walk outside the class …"
     
-    #Scene hallway
+    scene bg hallway1
 
     "...into the hallway…"
 
-    #Scene teachers office (outside)
+    scene bg teacher
 
     "...and then stand outside the teachers office."
+
+    #scene of inside of teachers office
+
     "{i}I’ll sneak inside and try to find some clues - maybe a document that hasn’t been shred yet? I’d assume something like that would be near the shredder.{/i}"
     "You sneak inside the teachers office, surprised to notice that there are only two teachers inside."
 
@@ -161,7 +197,7 @@ label ch233:
 
     "{i}I can’t risk getting caught here, otherwise who knows what they’ll do to me! I should get out while they don’t know anything.{/i}"
 
-    # Scene outside teachers office
+    scene bg teacher
     
     mch "I should go and train for tomorrow, I can’t afford losing this battle!"
 
@@ -263,7 +299,7 @@ label cha242:
 
     "Also with the fact that these knobs are old and the user must have had to hold it for a while before being able to open the door, you are sure that you will find the door that leads to the suspicious person."
 
-    "{i}Several doors later..."
+    "{i}Several doors later...{/i}"
 
 label cha242_HOT:
 
@@ -310,7 +346,7 @@ label cha242_b:
     ila "..............."
     menu:
         ".........................":
-            ila "{i}waves her hand and smiles.{\i}"
+            ila "{i}waves her hand and smiles.{/i}"
 
     jump chapter03
 

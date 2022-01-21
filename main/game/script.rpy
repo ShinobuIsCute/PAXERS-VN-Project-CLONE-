@@ -26,11 +26,19 @@ init:
     define nrd = Character("Soleil", color = "#ff0000")
     define nyf = Character("Nyofu", color = "#ffffff")
     define ila = Character("Ilana", color="#9339cf")
+
     define normalDaySchool = "audio/music/normal day in the school.mp3"
     define insideTeacherOffice = "audio/music/inside the teachers office.mp3"
     define oldSchoolBuilding = "audio/music/old school buildings.mp3"
     define trainingRoomTheme = "audio/music/training room theme.mp3"
     define flashback = "audio/music/flashback.mp3"
+    
+    #initialising flags
+    default met_nyf = False 
+    default met_sol = False
+    default d1_nyf_clue = False
+    default d1_sol_clue = False
+    default know_sol_name = False
 
 label start:
     python:
@@ -41,4 +49,4 @@ label start:
         name = renpy.input("What is your name?")
         name = name.strip() or "The Nameless One"
 
-    jump chapter02
+    jump chapter01

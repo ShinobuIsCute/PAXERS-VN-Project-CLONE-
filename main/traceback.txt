@@ -1,14 +1,14 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/chapter02.rpy", line 170, in script
+  File "game/chapter02.rpy", line 351, in script
     jump chapter03
 ScriptError: could not find label 'chapter03'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter02.rpy", line 170, in script
+  File "game/chapter02.rpy", line 351, in script
     jump chapter03
   File "C:\Users\prans\Downloads\Setups\renpy-7.4.11-sdk.7z\renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
     rv = renpy.game.script.lookup(target)
@@ -19,4 +19,4 @@ ScriptError: could not find label 'chapter03'.
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
 donor 1.0
-Fri Jan 21 01:50:50 2022
+Fri Jan 21 15:27:42 2022

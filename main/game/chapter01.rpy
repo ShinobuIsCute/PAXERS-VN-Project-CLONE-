@@ -23,7 +23,7 @@ label chapter01:
     scene bg village
     play music flashback
 
-    "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing."
+    "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing.{/i}"
     "{i}It was like they vanished into thin air. I always regret not being able to do anything for them, who knows what happened to them. {/i}"
     "{i}I...{/i}"
     "{i}I was too young. I couldn’t do anything. I didn’t understand anything.{/i}"
@@ -95,6 +95,10 @@ label lsp_1:
     jump chapter02
 
 label sch_1:
+
+    #flag
+    $ met_sol = True
+
     "{i}I need to find out more about this problem before I can understand how to deal with it!{/i}"
 
         # ... the game continues here.
@@ -116,6 +120,9 @@ label sch_1:
 
 label ch121:
 
+    #flag
+    $ know_sol_name = True
+
     mch "Please, I don’t even know your name but I really don’t want you to go missing like the others!"
     "???" "I’m Soleil, but seriously just leave me alone. I think you are being a bit too caring for a stranger."
     mch "I just want you to be safe, that’s all."
@@ -132,10 +139,14 @@ label ch121:
     jump chapter02
 
 label ch122:
+
+    #flag
+    $ d1_sol_clue = True
+
     mch "Ok, I trust you."
     "You follow her to the rock climbing class"
     "You watch her leave, but begin to trail her after she has walked a distance"
-    "While following Soleil, you hear other students talking about suspicious activity"
+    "While following the girl, you hear other students talking about suspicious activity"
     "{i}Wait, what are they talking about? A suspicious person lurking around the school?{/i}"
     "{i}I need to find this person and interrogate them! They said this person hangs around afterschool near the teachers office?{/i}"
     "{i}Guess I’ll go and investigate that tomorrow.{/i}"
@@ -156,6 +167,9 @@ label ch122:
 
 label tco_1:
     
+    #flag
+    $ met_nyf = True
+
     "{i}Maybe I can get some information if I listen to what the teachers are talking about.{/i}"
     "You go closer to the door and crouch down next to it"
 
@@ -193,6 +207,9 @@ label tco_1:
 
     hide nyofu_cute
 label ch131:
+
+    #flag
+    $ d1_nyf_clue = True
 
     scene bg hallway1
 
@@ -234,8 +251,8 @@ label ch132:
     mch "My hand wasn’t sweaty at all!"
     nyf "....."
     mch "Anyway, I need information on the girls that have recently gone missing from this school."
-    nyf "Nyofu doesn’t know anything interesting about that."
-    mch "Well if I can’t get information, I should try and become better at my magic skills! Nyofu, can you teach me your magic spell?"
+    nyf "Nyofu thinks %(name)s is a philanderer."
+    mch "No, no, Nyofu I just want to help them. I should try and become better at my magic skills! Nyofu, can you teach me your magic spell?"
     nyf "Nyofu can help you learn a new magic spell!"
 
     #MC LEARNS A NEW ICE SPELL HERE!!!
