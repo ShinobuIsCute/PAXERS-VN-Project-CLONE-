@@ -1,6 +1,6 @@
 label chapter01:
 
-    scene bg classroom
+    scene bg classroom with dissolve
     show silhouettes
 
     play music normalDaySchool
@@ -20,7 +20,7 @@ label chapter01:
 
     "{i}I wish I could do something. I need to do something about this. I don’t want to regret being weak and unable to help like last time. Last time…{/i}"
 
-    scene bg village
+    scene bg village with flash
     play music flashback
 
     "{i}I was born and raised in a small village. Well, raised until everyone started to disappear. Many families in the village scattered after almost half the population had gone missing. They left and never came back. No letters, phone calls, text messages, nothing.{/i}"
@@ -28,7 +28,7 @@ label chapter01:
     "{i}I...{/i}"
     "{i}I was too young. I couldn’t do anything. I didn’t understand anything.{/i}"
 
-    scene bg classroom
+    scene bg classroom with flash
     show mch thinking
 
     stop music fadeout 1.0
@@ -56,7 +56,7 @@ label chapter01:
 
     "Another wave of laughter erupts, and you feel blood rushing to your face"
 
-    scene bg hallway1
+    scene bg hallway1 with dissolve
 
     "Mandatory classes end, and you ponder what to do with your spare time"
     "{i}I could try learning a spell. Prove everyone wrong. Well, they're right, but... anyways{/i}"
@@ -75,7 +75,7 @@ label chapter01:
             jump tco_1
 
 label lsp_1:
-    scene bg hallway2
+    scene bg hallway2 with dissolve
     stop music fadeout 1.0
     play music trainingRoomTheme
     "You enter the afterschool practice hall"
@@ -102,13 +102,15 @@ label sch_1:
     "{i}I need to find out more about this problem before I can understand how to deal with it!{/i}"
 
         # ... the game continues here.
-    show soleil angry
+    show soleil angry at center:
+        zoom 1.7
 
     "???" "Ow! Hey, stop blocking the doorway! I’m trying to get to my rock climbing class!"
     mch "Your what? I didn’t know we had a rock climbing club at this school."
     "???" "Are you an idiot? Of course we don’t! I said ‘class’ not ‘club’!"
     mch "You mean it’s not inside the school? Don’t go! It’s too dangerous outside right now!"
     "???" "Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
+    
     menu:
         "???""Stop treating me like a kid! I can burn anyone who tries to get in my way, including you!"
 
@@ -123,6 +125,9 @@ label ch121:
     #flag
     $ know_sol_name = True
 
+    show soleil angry at center with dissolve:
+        zoom 1.7
+
     mch "Please, I don’t even know your name but I really don’t want you to go missing like the others!"
     "???" "I’m Soleil, but seriously just leave me alone. I think you are being a bit too caring for a stranger."
     mch "I just want you to be safe, that’s all."
@@ -131,7 +136,7 @@ label ch121:
     nrd "And that’s why you don’t talk to strangers you don’t know well. Sayonara."
     mch "Soleil, wait! I, uh, I didn’t know you were so intelligent! Please forgive me for being an idiot."
 
-    hide soleil angry
+    hide soleil angry with dissolve
 
     "Soleil is nowhere to be seen. Only a rolling cactus is there to hear your request."
     "{i}Well, it isn’t a surprise that no one wants to talk to me I guess. Maybe I should just go home for today and rest.{/i}"
@@ -143,13 +148,22 @@ label ch122:
     #flag
     $ d1_sol_clue = True
 
+    show soleil angry at center:
+        zoom 1.7
+
     mch "Ok, I trust you."
+
+    hide soleil angry with dissolve
+
     "You follow her to the rock climbing class"
     "You watch her leave, but begin to trail her after she has walked a distance"
     "While following the girl, you hear other students talking about suspicious activity"
     "{i}Wait, what are they talking about? A suspicious person lurking around the school?{/i}"
     "{i}I need to find this person and interrogate them! They said this person hangs around afterschool near the teachers office?{/i}"
     "{i}Guess I’ll go and investigate that tomorrow.{/i}"
+
+    show soleil angry at center with dissolve:
+        zoom 1.7
 
     mch "WAIT, ITS NOT WHAT YOU THINK!"
     "{i}I found myself staring at that girl's face once again. She found out I had been following her.{/i}"
@@ -160,9 +174,12 @@ label ch122:
     "???" "Well either way, you admitted to be following me. You’re lucky I’m also interested in finding out who is behind all the missing girls. Thanks for the information. I hope it’s not who I think it is though."
     mch "Uh, you’re welcome?"
     "???" "Can’t you tell when someone is being sarcastic!"
+
+    hide soleil angry with dissolve
+
     "The girl scurries off into the distance."
     "{i}I got a good amount of information today, I think we can call that a success!{/i}"
-    " You know there is a suspicious person, and you have met a love interest, Soleil!"
+    #Who tf added this line??? " You know there is a suspicious person, and you have met a love interest, Soleil!"
     jump chapter02
 
 label tco_1:
@@ -173,27 +190,28 @@ label tco_1:
     "{i}Maybe I can get some information if I listen to what the teachers are talking about.{/i}"
     "You go closer to the door and crouch down next to it"
 
-    scene bg teacher
+    scene bg teacher with dissolve
 
     "{i}I can’t hear much from here. Maybe I should sneak inside and try to find something relevant in the teachers office.{/i}"
     "Someone falls onto you!"
 
-    show nyofu_sad
+    show nyofu sad at center with hpunch:
+        zoom 0.75
 
     "???" "Ahhh! Errr, uhh, eeeeeeee!"
     mch "Shhhhh!"
     "You look at the perpetrator, a girl who looks like she is at the verge of tears"
     mch "Let’s whisper here, ok?"
 
-    hide nyofu_sad
-    show nyofu_cute
+    show nyofu cute:
+        zoom 1.5
 
     "???" "Shh! Ok, Nyofu understand!"
     mch "Well you are clearly being too loud..."
     "Background" "Is someone there?"
     "You take Nyofu’s hand and run down the hallway"
 
-    scene bg hallway1
+    scene bg hallway1 with dissolve
     
     mch "Um, sorry about before, I’m %(name)s. What's your name?"
     nyf "Nyofu! Nyofu think’s your hand is warm. Nyofu think’s your hand is a bit sweaty."
@@ -205,15 +223,15 @@ label tco_1:
         "Tell Nyofu your hand wasn’t sweaty!":
             jump ch132
 
-    hide nyofu_cute
 label ch131:
 
     #flag
     $ d1_nyf_clue = True
 
-    scene bg hallway1
+    scene bg hallway1 with dissolve
 
-    show nyofu_cute
+    show nyofu cute at center:
+        zoom 1.5
 
     mch "Nyofu, I’m sure you know about the girls that are going missing. I’m here to try and get some information so I can find out where to look for these girls, or maybe something about the suspects."
     nyf "Nyofu thinks you are doing the right thing! Nyofu still doesn’t know why MC’s hand was sweaty..."
@@ -225,28 +243,29 @@ label ch131:
     nyf "Nyofu thinks there might be a suspicious person in the school. Nyofu has seen this suspicious person trespassing on the old school buildings immediately afterschool more than once!"
     mch "You think it might be someone from the school? I guess I will take a look around the old school buildings tomorrow."
 
-    hide nyofu_cute
-    show nyofu_angry
+    hide nyofu cute
+    show nyofu angry at center:
+        zoom 0.75
 
     nyf "Nyofu thinks you would have to be trespassing to get to the old school buildings..."
     mch "Nyofu, you are right. Unfortunately, I have to do this. I can’t let my past demons keep me locked up in their grasp for my lifetime, I have to do as much as I can, so I don’t regret anything afterwards."
     nyf "Nyofu thinks you might be the suspicious person..."
     mch "What? How? I’m not suspicious!"
     
-    hide nyofu_angry
-    show nyofu_cute
+    hide nyofu angry
+    show nyofu cute at center:
+        zoom 1.5
 
     "You and Nyofu start laughing."
-    
-    hide nyofu_cute
 
     jump chapter02
 
 label ch132:
 
-    scene bg hallway1
+    scene bg hallway1 with dissolve
     
-    show nyofu_cute
+    show nyofu_cute at center:
+        zoom 1.5
 
     mch "My hand wasn’t sweaty at all!"
     nyf "....."
@@ -258,7 +277,5 @@ label ch132:
     #MC LEARNS A NEW ICE SPELL HERE!!!
 
     #scene of mc training spot
-
-    hide nyofu_cute
 
     jump chapter02

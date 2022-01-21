@@ -8,9 +8,14 @@ image soleil happy = "soleil_happy.png"
 image soleil sad = "soleil_sad.png"
 image soleil angry = "soleil_angry.png"
 
+#Fixing the image issues + custom transitions stuff will go here
+#defining custom flash transition
+define flash = Fade(0.1, 0.0, 0.5, color='#fff')
+
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+image bg black_screen = "black screen.jpg"
 image bg classroom = "bg classroom.jpg"
 image bg canteen = "bg canteen.jpg"
 image bg hallway1 = "bg hallway 2.5.jpg"

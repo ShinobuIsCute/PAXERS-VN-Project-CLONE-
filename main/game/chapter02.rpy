@@ -1,5 +1,7 @@
 label chapter02:
 
+    scene bg black_screen
+
     "{i}Waking up is such a pain. Maybe something interesting will happen today! That's how I should be thinking, but for some reason…{/i}"
     
     #scene MC house
@@ -7,7 +9,7 @@ label chapter02:
     "TV" "Another person has gone missing from Asteroth Academy while a missing person in a related case has just been found heavily injured and was recently taken to hospital via helicopter for urgent medical care"
     "{i}I can't let this happen to one of my classmates. I can't handle the regret knowing I could've at least tried to do something. Wait. What time is it? Oh no, I'm going to be late for school! I guess I'll have to skip breakfast to make it there on time.{/i}"
 
-    scene bg classroom
+    scene bg classroom with dissolve
 
     mch "That, must be, a new record, for me."
     mch "No one in the class says a word during the lecture, the atmosphere morbid, like a funeral for an insignificant human"
@@ -58,20 +60,37 @@ label chapter02:
         
 label ch211:
     
-    scene bg hallway1
+    scene bg hallway1 with dissolve
     #if statement (has not met Nyofu)
     if not(met_nyf):
+
+        show nyofu cute at center with dissolve:
+            zoom 1.5
+
         mch "Who are you?"
         "???" "Nyofu is Nyofu!"
         mch "You look so cheerful."
+
+        show nyofu sad at center with dissolve:
+            zoom 0.75
+
         nyf "Nyofu is only cheerful on the outside. Nyofu wants to help the missing girls like Nyofu!"
         "{i}I'm not sure about the 'like Nyofu' part...{/i}"
         mch "I'm trying to find some clues about the girls that have gone missing as well. Do you know anyplace that I should go and investigate?"
         nyf "Nyofu thinks you are suspicious. Nyofu thinks Nyofu saw someone suspicious around the old school buildings but not as suspicious as you."
         mch "How am I suspicious? I guess I haven't introduced myself. I'm %(name)s."
+        
+        show nyofu cute at center with dissolve:
+            zoom 1.5
+        
         nyf "Nyofu will remember suspicious persons name now, bye bye."
         mch "Thank you for the clue Nyofu!"
+        #I could add a zoom out here maybe?? - Pranav
         mch "Wait! Before you go, what's with the halo on your head?"
+
+        show nyofu angry at center:
+            zoom 0.75
+
         nyf "Nyofu's halo and head is Nyofu's secret! Nyofu will tell you when the time is right."
 
         menu:
@@ -84,11 +103,19 @@ label ch211:
 
     #else statement (has met Nyofu)
     else:
+
+        show nyofu cute at center with dissolve:
+            zoom 1.5
+
         mch "Hi, Nyofu. What are you doing around here?"
         nyf "Nyofu thinks you've been sleeping too much."
         mch "What?"
         nyf "{i}(Laughing){/i}"
         mch "I feel like I should've asked this yesterday, why do you have a halo on your head?"
+
+        show nyofu angry at center:
+            zoom 0.75
+
         nyf "Nyofu's halo is Nyofu's secret! Nyofu will tell you when the time is right."
 
     #end of the if...else...statement 
@@ -103,7 +130,13 @@ label ch211:
 label ch212:
     
     mch "I'm sorry, I didn't realise that was a rude question to ask."
+
+    show nyofu cute at center with dissolve:
+        zoom 1.5
+
     nyf "Nyofu forgives you! Nyofu thinks we should do something about these missing people!"
+
+    hide nyofu cute with dissolve
 
     jump ch241
 
@@ -112,27 +145,50 @@ label ch213:
     mch "I think the halo looks cute on Nyofu, no matter what reason you have it for"
     nyf "Nyofu is very happy to hear that but Nyofu is always cute even without the halo!"
     mch "I can't argue with that!"
+
+    show nyofu sad at center with dissolve:
+        zoom 0.75
+
     nyf "Nyofu thinks we should do something about the missing people! Nyofu was watching TV this morning and it said another person like Nyofu went missing!"
     "{i}“Im not sure about the 'like Nyofu' part…{/i}"
     
+    hide nyofu sad with dissolve
+
     jump ch241
 
 label ch221:
 
-    scene bg canteen
+    scene bg canteen with dissolve
 
     "{i}I look around the canteen and see a slim female figure eating while … reading a book?{/i}"
     
+    show soleil happy at center with dissolve:
+        zoom 1.7
+
     if know_sol_name:
 
         nrd "Ah, the exile from yesterday? Sorry, I've just finished eating."
         mch "Wait! I don’t mind if you don’t want to talk to me, just tell me if you know anything else about the missing girls!"
+
+        show soleil sad at center with dissolve:
+            zoom 1.7
+
         nrd "You do realise you are a very suspicious person? Well whatever, I could see you were earnestly trying to find clues yesterday. Go to the teachers office afterschool, I’ve heard that they occasionally discuss things in regards to missing girls."
         mch "Wait you, you were stalking me? Thank you for the clue anyway, you should tell me where to find you if you want me report back to you."
+        
+        show soleil happy at center with dissolve:
+            zoom 1.7
+
         nrd "You’ll find me here at lunchtime everyday. Feel free to come and get lectured if you are a masochist."
         "{i}Wow, this girl has a twisted personality.{/i}"
+        
+        show soleil angry at center with dissolve:
+            zoom 1.7
+
         nrd "You better come back with good information! Otherwise you’ll see me come after you…"
         "Soleil glares angrily at the MC, scaring him into submission."
+
+        hide soleil angry with dissolve
 
         jump ch231
 
@@ -141,26 +197,40 @@ label ch221:
     
         "???" "Ah, the exile from yesterday? Or should I say stalker? Sorry, I've just finished eating."
         mch "Wait! I don’t mind if you don’t want to talk to me, just tell me if you know anything else about the missing girls!"
+
+        show soleil sad at center with dissolve:
+            zoom 1.7
+
         "???" "You do realise you are a very suspicious person? Well whatever, I could see you were earnestly trying to find clues yesterday. Go to the teachers office afterschool, I’ve heard that they occasionally discuss things in regards to missing girls."
         mch "Wait you, you knew I was following you the whole time? Thank you for the clue anyway, you should tell me your name if you want me to find you again and report back to you."
+        
+        show soleil happy at center with dissolve:
+            zoom 1.7
+
         "???" "I’m Soleil, part of the arcana class. You’ll find me here at lunchtime everyday. Feel free to come and get lectured if you are a masochist."
         "{i}Wow, this girl has a twisted personality.{/i}"
+        
+        show soleil angry at center with dissolve:
+            zoom 1.7
+        
         nrd "You better come back with good information! Otherwise you’ll see me come after you…"
         "Soleil glares angrily at the MC, scaring him into submission."
+
+        hide soleil angry with dissolve
 
         jump ch231
 
 label ch231:
 
-    scene bg classroom
+    scene bg classroom with dissolve
 
     "As the bell for the final period of the school ends, you casually walk outside the class …"
     
-    scene bg hallway1
+    scene bg hallway1 with dissolve
 
     "...into the hallway…"
 
-    scene bg teacher
+    scene bg teacher with dissolve
 
     "...and then stand outside the teachers office."
 
@@ -197,7 +267,7 @@ label ch233:
 
     "{i}I can’t risk getting caught here, otherwise who knows what they’ll do to me! I should get out while they don’t know anything.{/i}"
 
-    scene bg teacher
+    scene bg teacher with dissolve
     
     mch "I should go and train for tomorrow, I can’t afford losing this battle!"
 
@@ -208,7 +278,7 @@ label ch233:
 label ch241:
     "You make your way to the old highschool building."
 
-    scene bg oldschool_entrance    
+    scene bg oldschool_entrance with dissolve
 
     "The air is eerie. A dusty wind peaks up as you feel a storm coming."
     "In the distance, a girl leans on one of the pillars at the entrance checking her phone while drinking juice. She looks up and notices you."
@@ -261,7 +331,7 @@ label ch241_a:
 
 
 label cha241_b:
-    scene bg oldschool_hallway
+    scene bg oldschool_hallway with dissolve
     "Roll a d20 to make a perception check."
     python:
         import random
@@ -324,7 +394,7 @@ label cha242_a:
             jump cha242_b
 
 label cha242_b:
-    scene oldschool_room
+    scene oldschool_room with dissolve
     "The room is mostly dark, except some light that floods in from an open window."
     "All the windows of the room have been boarded up, except one."    
     "Winds swish in and out as papers ruffle on top of table weighted on by a big stone."    
