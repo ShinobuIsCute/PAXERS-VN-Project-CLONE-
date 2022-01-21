@@ -180,7 +180,7 @@ label ch241:
     #note: use one of the discarded character designs for this character    
     "(random girl)" "Hey, you!"
     "(random girl)" "Yes, you- the guy looking behind to find someone else."
-    "(random girl)" "You are not supposed to be wandering around here. What are you doing here?"
+    "(random girl)" "You're not supposed to be wandering around here. What are you doing here?"
     mch "Why are {i}you{/i} here?"
     "(girl)" "Answering a question with a question— not a bad move."
     ila "Name’s Ilana. What’s yours?"
@@ -277,10 +277,10 @@ label cha242_a:
         "Kick it down.":
             "The door doesn’t even budge."
             jump cha242_a
-        "Use plant spell":
+        "Use a plant spell":
             "You conjure a seed inside the lock, then growing it, the lack of space inside means the plant forces its way outwards, breaking the lock."
             jump cha242_b
-        "Use water spell":
+        "Use a water spell":
             "You conjure some water and move it around the lock randomly until you hear a click, to which you find you have unlocked the door."
             jump cha242_b
         "Use telekinesis":  

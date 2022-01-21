@@ -18,7 +18,7 @@ label chapter01:
 
     stop music fadeout 1.0
 
-    "{i}I wish I could do something. I know I need to do something about this. I don’t want to regret being weak and unable to help like last time. Last time…{/i}"
+    "{i}I wish I could do something. I need to do something about this. I don’t want to regret being weak and unable to help like last time. Last time…{/i}"
 
     scene bg village
     play music flashback
@@ -151,7 +151,7 @@ label ch122:
     "???" "Can’t you tell when someone is being sarcastic!"
     "The girl scurries off into the distance."
     "{i}I got a good amount of information today, I think we can call that a success!{/i}"
-    " You know there is a suspicious person, and you have meet a love interest, Soleil!"
+    " You know there is a suspicious person, and you have met a love interest, Soleil!"
     jump chapter02
 
 label tco_1:
