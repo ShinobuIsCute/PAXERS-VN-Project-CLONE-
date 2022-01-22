@@ -283,12 +283,20 @@ label ch241:
     "The air is eerie. A dusty wind peaks up as you feel a storm coming."
     "In the distance, a girl leans on one of the pillars at the entrance checking her phone while drinking juice. She looks up and notices you."
 
-    #note: use one of the discarded character designs for this character    
-    "(random girl)" "Hey, you!"
-    "(random girl)" "Yes, you- the guy looking behind to find someone else."
-    "(random girl)" "You're not supposed to be wandering around here. What are you doing here?"
+    #note: use one of the discarded character designs for this character
+    
+    show ilana angry at center with dissolve:
+        zoom 1.5
+
+    "???" "Hey, you!"
+    "???" "Yes, you- the guy looking behind to find someone else."
+    "???" "You're not supposed to be wandering around here. What are you doing here?"
     mch "Why are {i}you{/i} here?"
-    "(girl)" "Answering a question with a question— not a bad move."
+    
+    show ilana happy with dissolve:
+        zoom 1.5
+    
+    "???" "Answering a question with a question— not a bad move."
     ila "Name’s Ilana. What’s yours?"
 
     menu:
@@ -322,6 +330,7 @@ label ch241_a:
     ila "…"
     ila "Seeya then!"
 
+    hide ilana happy with dissolve
 
     "You race inside the old school building and make your way upto the fifth floor."
 
@@ -411,11 +420,19 @@ label cha242_b:
     "As you look down through the window, you see Ilana heading off to the main school building."
     "She looks up."
 
+    show ilana sad at left with dissolve:
+        zoom 0.8
+
     ila "..."
     mch "......"
     ila "..............."
+
+    show ilana happy at left with dissolve:
+        zoom 0.8
+
     menu:
-        ".........................":
+
+        ".........................":    
             ila "{i}waves her hand and smiles.{/i}"
 
     jump chapter03
