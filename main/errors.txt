@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-The label ch221 is defined twice, at File "game/chapter02.rpy", line 73:
-label ch221:
-and File "game/chapter02.rpy", line 75:
-label ch221:
-
-
-The label ch231 is defined twice, at File "game/chapter02.rpy", line 74:
-label ch231:
-and File "game/chapter02.rpy", line 76:
-label ch231:
-
+File "game/chapter01.rpy", line 168: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    zoom 1.7
+    ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Thu Jan 20 17:42:26 2022
+Fri Jan 21 16:42:46 2022
