@@ -1,5 +1,5 @@
 # The script of the game goes in this file.
-
+#randomcomment
 #Attempting to add the images
 image nyofu cute = "nyofu_cute.png"
 image nyofu sad = "nyofu_sad.png"
