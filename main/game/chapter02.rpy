@@ -289,7 +289,7 @@ label ch241:
         zoom 1.5
 
     "???" "Hey, you!"
-    "???" "Yes, you- the guy looking behind to find someone else."
+    "???" "Yes, you- the one looking behind to find someone else."
     "???" "You're not supposed to be wandering around here. What are you doing here?"
     mch "Why are {i}you{/i} here?"
     
@@ -320,6 +320,7 @@ label ch241_a:
     A Dark figure dashes through one of the windows on the 5th floor.
     Note: can do a pan-in too.
     Make it short like 0.5 seconds
+    Stop the music here.
     """
 
     mch "Did you see that?"
@@ -435,5 +436,5 @@ label cha242_b:
         ".........................":    
             ila "{i}waves her hand and smiles.{/i}"
 
-    jump chapter03
+    # jump chapter03
 
