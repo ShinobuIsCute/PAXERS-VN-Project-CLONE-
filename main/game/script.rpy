@@ -27,6 +27,8 @@ image bg hallway1 = "bg hallway 2.5.jpg"
 image bg hallway2 = "bg hallway narrow.jpg"
 image bg teacher = "bg teacher's door.jpg"
 image bg village = "bg village.jpg"
+image bg oldschool_entrance = "bg old school entrance.jpg"
+image bg training_room = "bg training room.jpg"
 
 
 init:

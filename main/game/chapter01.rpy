@@ -83,6 +83,8 @@ label lsp_1:
     "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it ugly."
     "One side of the hall is lined with strong, thick doors made of dark oak. They seem strangely strong."
     "You see no sign of activity in the corridor, but whenever a door is opened bright flashes of light and sound from people practising their respective magic can be heard."
+
+    scene bg training_room with dissolve
     "You walk down the hallway until you find an unoccupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
     "The room lies dauntingly empty save for the arcane etchings on the wall and floor."
     "The room appears to be both neverending yet cramped at the same time. You squint, trying to judge how far away the rooms are, only to feel more and more disoriented."
@@ -276,6 +278,6 @@ label ch132:
 
     #MC LEARNS A NEW ICE SPELL HERE!!!
 
-    #scene of mc training spot
+    scene bg training_room with dissolve
 
     jump chapter02

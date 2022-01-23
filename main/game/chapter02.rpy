@@ -93,7 +93,7 @@ label ch231:
 label ch241:
     "You make your way to the old highschool building."
 
-    scene bg oldschool_entrance    
+    scene bg oldschool_entrance with dissolve  
 
     "The air is eerie. A dusty wind peaks up as you feel a storm coming."
     "In the distance, a girl leans on one of the pillars at the entrance checking her phone while drinking juice. She looks up and notices you."
