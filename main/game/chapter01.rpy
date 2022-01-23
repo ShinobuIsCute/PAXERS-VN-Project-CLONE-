@@ -46,7 +46,7 @@ label chapter01:
     play sound "audio/cat.mp3"
     "Laughter erupts"
 
-    "From the crowd""Oh yeah? What are you going to do about it? Cast your that one spell you know?"
+    "From the crowd""Oh yeah? What are you going to do about it? Cast the only spell that you know?"
 
     "You don't mention that your magical abilites have only awakened recently, and you haven't had time to learn a single spell as this is your first week at school"
 
@@ -234,9 +234,9 @@ label ch131:
         zoom 1.5
 
     mch "Nyofu, I’m sure you know about the girls that are going missing. I’m here to try and get some information so I can find out where to look for these girls, or maybe something about the suspects."
-    nyf "Nyofu thinks you are doing the right thing! Nyofu still doesn’t know why MC’s hand was sweaty..."
+    nyf "Nyofu thinks you are doing the right thing! Nyofu still doesn’t know why %(name)s's hand was sweaty..."
     mch "Uh, that was um..."
-    nyf "Nyofu thinks %(name)s has tried very hard today! Maybe that's why MC’s hand was sweaty."
+    nyf "Nyofu thinks %(name)s has tried very hard today! Maybe that's why %(name)s's hand was sweaty."
     mch "Wow! Nyofu you are so smart!"
     "{i}Wow, how can a girl be this dense? Well, I guess it’s for the better.{/i}"
     mch "I still need to get some more information, I haven’t found enough for today!"
