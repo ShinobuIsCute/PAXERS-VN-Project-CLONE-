@@ -6,16 +6,18 @@ label chapter02:
     
     #scene MC house
 
-
+    #Play white noise "music"
     "TV" "Another person has gone missing from Asteroth Academy while a missing person in a related case has just been found heavily injured and was recently taken to hospital via helicopter for urgent medical care"
     "{i}I can't let this happen to one of my classmates. I can't handle the regret knowing I could've at least tried to do something. Wait. What time is it? Oh no, I'm going to be late for school! I guess I'll have to skip breakfast to make it there on time.{/i}"
     #Play running away sound
+    #Stop
 
     scene bg classroom with dissolve
 
     mch "That, must be, a new record, for me."
     mch "No one in the class says a word during the lecture, the atmosphere morbid, like a funeral for an insignificant human"
 
+    #Nya Fooo sound effect
     "outside of classroom" "~Nyofuuuu~"
 
     if met_nyf and d1_nyf_clue:
@@ -84,7 +86,7 @@ label ch211:
         
         show nyofu cute at center with dissolve:
             zoom 1.5
-        
+        #Delay, then bye bye sound effect
         nyf "Nyofu will remember suspicious persons name now, bye bye."
         mch "Thank you for the clue Nyofu!"
         #I could add a zoom out here maybe?? - Pranav
@@ -175,6 +177,7 @@ label ch221:
         show soleil sad at center with dissolve:
             zoom 1.7
 
+        #Huhh....? sound effect
         nrd "You do realise you are a very suspicious person? Well whatever, I could see you were earnestly trying to find clues yesterday. Go to the teachers office afterschool, I’ve heard that they occasionally discuss things in regards to missing girls."
         mch "Wait you, you were stalking me? Thank you for the clue anyway, you should tell me where to find you if you want me report back to you."
         
@@ -196,7 +199,8 @@ label ch221:
 
     #else statement (if MC doesn't know Soleil's name i.e. ch121)
     else:
-    
+        
+        #Eh.. sound effect
         "???" "Ah, the exile from yesterday? Or should I say stalker? Sorry, I've just finished eating."
         mch "Wait! I don’t mind if you don’t want to talk to me, just tell me if you know anything else about the missing girls!"
 
@@ -241,6 +245,7 @@ label ch231:
     "{i}I’ll sneak inside and try to find some clues - maybe a document that hasn’t been shred yet? I’d assume something like that would be near the shredder.{/i}"
     "You sneak inside the teachers office, surprised to notice that there are only two teachers inside."
 
+    #Background whisperings, this should be comforably long
     "???" "...I’m surprised their meeting is taking so long…"
     "???" "....yes, maybe they are talking about the next…."
     "???" "...I’ve heard from the others…"
@@ -261,6 +266,7 @@ label ch232:
     "You slowly make your way towards the shredder, as silently as you can. Now that you are next to it, you can see a document with some interesting information written on it."
     "{i}What on earth is this! Another experiment the day after tomorrow in the gym? It’s written here that it will be the first time something like this has ever happened in the school’s history! I have to get out of here and go and train for this.{/i}"
     
+    #Stop playing background whisperings with slow fade 2.0 maybe
     # MC learns a new spell here
     
     jump chapter03
@@ -273,6 +279,7 @@ label ch233:
     
     mch "I should go and train for tomorrow, I can’t afford losing this battle!"
 
+    #Stop playing background whisperings with slow fade 2.0 maybe
     # MC learns a new spell here
 
     jump chapter03
@@ -285,7 +292,8 @@ label ch241:
     "The air is eerie. A dusty wind peaks up as you feel a storm coming."
     "In the distance, a girl leans on one of the pillars at the entrance checking her phone while drinking juice. She looks up and notices you."
 
-    #note: use one of the discarded character designs for this character    
+    #note: use one of the discarded character designs for this character  
+    #Female Hey! sound effect  
     "(random girl)" "Hey, you!"
     "(random girl)" "Yes, you- the guy looking behind to find someone else."
     "(random girl)" "You're not supposed to be wandering around here. What are you doing here?"
@@ -333,6 +341,7 @@ label ch241_a:
 
 
 label cha241_b:
+    play music oldSchoolBuilding
     scene bg oldschool_hallway with dissolve
     "Roll a d20 to make a perception check."
     python:
@@ -375,6 +384,7 @@ label cha242:
 
 label cha242_HOT:
 
+    #Ouch! sound effect
     "A HOT KNOB!"
 
     "Finally."
@@ -383,20 +393,26 @@ label cha242_HOT:
 label cha242_a:
     menu: 
         "Kick it down.":
+            play sound "audio/kickdoor.mp3"
             "The door doesn’t even budge."
             jump cha242_a
         "Use a plant spell":
+            #Play plant spell sound and break lock sound
             "You conjure a seed inside the lock, then growing it, the lack of space inside means the plant forces its way outwards, breaking the lock."
             jump cha242_b
         "Use a water spell":
+            #Play water spell sound, soft water juggling, mechanical sounds and click.
             "You conjure some water and move it around the lock randomly until you hear a click, to which you find you have unlocked the door."
             jump cha242_b
         "Use telekinesis":  
+            #Play mechanical sound effects and click
             "Using telekinesis, you try to shift some parts until the lock clicks, you put your hand on the door knob and it opens."
             jump cha242_b
 
 label cha242_b:
     scene oldschool_room with dissolve
+    stop music fadeout 2.0
+    play music "audio/music/interestingclues.mp3" fadein 2.0
     "The room is mostly dark, except some light that floods in from an open window."
     "All the windows of the room have been boarded up, except one."    
     "Winds swish in and out as papers ruffle on top of table weighted on by a big stone."    

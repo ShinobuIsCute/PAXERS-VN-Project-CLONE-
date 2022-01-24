@@ -3,7 +3,7 @@ label chapter01:
     scene bg classroom with dissolve
     show silhouettes
 
-    play music normalDaySchool
+    play music normalDaySchool fadein 2.0
     "*Background whispering*""Oh my god did you hear about that girl who went missing yesterday?"
     "*Background whispering*""Are you serious? Another one? How long is this going to go on for?"
     "*Background whispering*""Maybe she just felt really sick and left school?"
@@ -32,7 +32,7 @@ label chapter01:
     show mch thinking
 
     stop music fadeout 1.0
-    play music normalDaySchool
+    play music normalDaySchool fadein 1.0
     "{i}But this time...{/i}"
 
     show mch determined
@@ -43,7 +43,6 @@ label chapter01:
 
     mch"Tell me more, I will try to find the missing girls. Give me all the information you know!"
 
-    #Play laughter sound
     "Laughter erupts"
 
     "From the crowd""Oh yeah? What are you going to do about it? Cast that one spell you know?"
@@ -54,7 +53,6 @@ label chapter01:
 
     "From the crowd""Aww, that’s so cute, I didn’t know you cared about us so much."
 
-    #Play laughter sound 2
     "Another wave of laughter erupts, and you feel blood rushing to your face"
 
     scene bg hallway1 with dissolve
