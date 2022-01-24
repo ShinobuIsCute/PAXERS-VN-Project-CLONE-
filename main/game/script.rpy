@@ -1,12 +1,17 @@
 # The script of the game goes in this file.
-
+#randomcomment
 #Attempting to add the images
 image nyofu cute = "nyofu_cute.png"
 image nyofu sad = "nyofu_sad.png"
 image nyofu angry = "nyofu_angry.png"
+
 image soleil happy = "soleil_happy.png"
 image soleil sad = "soleil_sad.png"
 image soleil angry = "soleil_angry.png"
+
+image ilana happy = "ilana_happy.png"
+image ilana sad = "ilana_sad.png"
+image ilana angry = "ilana_angry.png"
 
 #Fixing the image issues + custom transitions stuff will go here
 #defining custom flash transition
@@ -22,6 +27,8 @@ image bg hallway1 = "bg hallway 2.5.jpg"
 image bg hallway2 = "bg hallway narrow.jpg"
 image bg teacher = "bg teacher's door.jpg"
 image bg village = "bg village.jpg"
+image bg oldschool_entrance = "bg old school entrance.jpg"
+image bg training_room = "bg training room.jpg"
 
 
 init:

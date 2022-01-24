@@ -1,5 +1,5 @@
 label chapter02:
-
+    #random comment
     scene bg black_screen
 
     "{i}Waking up is such a pain. Maybe something interesting will happen today! That's how I should be thinking, but for some reason…{/i}"
@@ -292,13 +292,28 @@ label ch241:
     "The air is eerie. A dusty wind peaks up as you feel a storm coming."
     "In the distance, a girl leans on one of the pillars at the entrance checking her phone while drinking juice. She looks up and notices you."
 
+<<<<<<< HEAD
     #note: use one of the discarded character designs for this character  
     #Female Hey! sound effect  
     "(random girl)" "Hey, you!"
     "(random girl)" "Yes, you- the guy looking behind to find someone else."
     "(random girl)" "You're not supposed to be wandering around here. What are you doing here?"
+=======
+    #note: use one of the discarded character designs for this character
+    
+    show ilana angry at center with dissolve:
+        zoom 1.5
+
+    "???" "Hey, you!"
+    "???" "Yes, you- the one looking behind to find someone else."
+    "???" "You're not supposed to be wandering around here. What are you doing here?"
+>>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
     mch "Why are {i}you{/i} here?"
-    "(girl)" "Answering a question with a question— not a bad move."
+    
+    show ilana happy with dissolve:
+        zoom 1.5
+    
+    "???" "Answering a question with a question— not a bad move."
     ila "Name’s Ilana. What’s yours?"
 
     menu:
@@ -322,6 +337,7 @@ label ch241_a:
     A Dark figure dashes through one of the windows on the 5th floor.
     Note: can do a pan-in too.
     Make it short like 0.5 seconds
+    Stop the music here.
     """
 
     mch "Did you see that?"
@@ -332,6 +348,7 @@ label ch241_a:
     ila "…"
     ila "Seeya then!"
 
+    hide ilana happy with dissolve
 
     "You race inside the old school building and make your way upto the fifth floor."
 
@@ -429,12 +446,20 @@ label cha242_b:
     "As you look down through the window, you see Ilana heading off to the main school building."
     "She looks up."
 
+    show ilana sad at left with dissolve:
+        zoom 0.8
+
     ila "..."
     mch "......"
     ila "..............."
+
+    show ilana happy at left with dissolve:
+        zoom 0.8
+
     menu:
-        ".........................":
+
+        ".........................":    
             ila "{i}waves her hand and smiles.{/i}"
 
-    jump chapter03
+    # jump chapter03
 

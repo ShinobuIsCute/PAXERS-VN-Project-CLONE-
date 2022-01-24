@@ -1,5 +1,5 @@
 label chapter01:
-
+    #random comment
     scene bg classroom with dissolve
     show silhouettes
 
@@ -45,7 +45,11 @@ label chapter01:
 
     "Laughter erupts"
 
+<<<<<<< HEAD
     "From the crowd""Oh yeah? What are you going to do about it? Cast that one spell you know?"
+=======
+    "From the crowd""Oh yeah? What are you going to do about it? Cast the only spell that you know?"
+>>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
 
     "You don't mention that your magical abilites have only awakened recently, and you haven't had time to learn a single spell as this is your first week at school"
 
@@ -82,7 +86,12 @@ label lsp_1:
     "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it ugly."
     "One side of the hall is lined with strong, thick doors made of dark oak. They seem strangely strong."
     "You see no sign of activity in the corridor, but whenever a door is opened bright flashes of light and sound from people practising their respective magic can be heard."
+<<<<<<< HEAD
     #Play walking sound and creak
+=======
+
+    scene bg training_room with dissolve
+>>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
     "You walk down the hallway until you find an unoccupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
     "The room lies dauntingly empty save for the arcane etchings on the wall and floor."
     "The room appears to be both neverending yet cramped at the same time. You squint, trying to judge how far away the rooms are, only to feel more and more disoriented."
@@ -245,9 +254,9 @@ label ch131:
         zoom 1.5
 
     mch "Nyofu, I’m sure you know about the girls that are going missing. I’m here to try and get some information so I can find out where to look for these girls, or maybe something about the suspects."
-    nyf "Nyofu thinks you are doing the right thing! Nyofu still doesn’t know why MC’s hand was sweaty..."
+    nyf "Nyofu thinks you are doing the right thing! Nyofu still doesn’t know why %(name)s's hand was sweaty..."
     mch "Uh, that was um..."
-    nyf "Nyofu thinks %(name)s has tried very hard today! Maybe that's why MC’s hand was sweaty."
+    nyf "Nyofu thinks %(name)s has tried very hard today! Maybe that's why %(name)s's hand was sweaty."
     mch "Wow! Nyofu you are so smart!"
     "{i}Wow, how can a girl be this dense? Well, I guess it’s for the better.{/i}"
     mch "I still need to get some more information, I haven’t found enough for today!"
@@ -290,7 +299,7 @@ label ch132:
 
     #MC LEARNS A NEW ICE SPELL HERE!!!
 
-    #scene of mc training spot
+    scene bg training_room with dissolve
 
     stop music fadeout 1.0
     jump chapter02
