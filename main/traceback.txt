@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/chapter02.rpy", line 421, in script
+  File "game/chapter02.rpy", line 266, in script
     jump chapter03
 ScriptError: could not find label 'chapter03'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter02.rpy", line 421, in script
+  File "game/chapter02.rpy", line 266, in script
     jump chapter03
-  File "C:\Users\prans\Downloads\Setups\renpy-7.4.11-sdk.7z\renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ast.py", line 1773, in execute
     rv = renpy.game.script.lookup(target)
-  File "C:\Users\prans\Downloads\Setups\renpy-7.4.11-sdk.7z\renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\script.py", line 917, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
 ScriptError: could not find label 'chapter03'.
 
-Windows-10-10.0.19041
-Ren'Py 7.4.11.2266
+Windows-10-10.0.19042
+Ren'Py 8.0.0.22011702n
 donor 1.0
-Fri Jan 21 17:36:22 2022
+Sun Jan 23 12:27:35 2022

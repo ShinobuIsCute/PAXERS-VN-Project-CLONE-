@@ -43,10 +43,10 @@ label chapter01:
 
     mch"Tell me more, I will try to find the missing girls. Give me all the information you know!"
 
-    play sound "audio/cat.mp3"
+    #Play laughter sound
     "Laughter erupts"
 
-    "From the crowd""Oh yeah? What are you going to do about it? Cast your that one spell you know?"
+    "From the crowd""Oh yeah? What are you going to do about it? Cast that one spell you know?"
 
     "You don't mention that your magical abilites have only awakened recently, and you haven't had time to learn a single spell as this is your first week at school"
 
@@ -54,6 +54,7 @@ label chapter01:
 
     "From the crowd""Aww, that’s so cute, I didn’t know you cared about us so much."
 
+    #Play laughter sound 2
     "Another wave of laughter erupts, and you feel blood rushing to your face"
 
     scene bg hallway1 with dissolve
@@ -83,15 +84,18 @@ label lsp_1:
     "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it ugly."
     "One side of the hall is lined with strong, thick doors made of dark oak. They seem strangely strong."
     "You see no sign of activity in the corridor, but whenever a door is opened bright flashes of light and sound from people practising their respective magic can be heard."
+    #Play walking sound and creak
     "You walk down the hallway until you find an unoccupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
     "The room lies dauntingly empty save for the arcane etchings on the wall and floor."
     "The room appears to be both neverending yet cramped at the same time. You squint, trying to judge how far away the rooms are, only to feel more and more disoriented."
     "{i}Spatial Magic. Perhaps I could learn that first{/i}"
+    #Play hum and water flowing and spash sound effect
     "Some etching on the floor begin to glow, and water flows from them. The swirl until they form human shaped objects."
     "{i}Training dummies. hmmmmm, not bad. Not bad at all.{/i}"
 
     #IDK what the last spell should be so Ill leave this part until later
 
+    stop music fadeout 1.0
     jump chapter02
 
 label sch_1:
@@ -105,6 +109,7 @@ label sch_1:
     show soleil angry at center:
         zoom 1.7
 
+    #Play HEY! sound effect
     "???" "Ow! Hey, stop blocking the doorway! I’m trying to get to my rock climbing class!"
     mch "Your what? I didn’t know we had a rock climbing club at this school."
     "???" "Are you an idiot? Of course we don’t! I said ‘class’ not ‘club’!"
@@ -136,11 +141,13 @@ label ch121:
     nrd "And that’s why you don’t talk to strangers you don’t know well. Sayonara."
     mch "Soleil, wait! I, uh, I didn’t know you were so intelligent! Please forgive me for being an idiot."
 
+    #Play brisk walk away sound
     hide soleil angry with dissolve
 
     "Soleil is nowhere to be seen. Only a rolling cactus is there to hear your request."
     "{i}Well, it isn’t a surprise that no one wants to talk to me I guess. Maybe I should just go home for today and rest.{/i}"
 
+    stop music fadeout 1.0
     jump chapter02
 
 label ch122:
@@ -153,6 +160,7 @@ label ch122:
 
     mch "Ok, I trust you."
 
+    #Play walk away sound
     hide soleil angry with dissolve
 
     "You follow her to the rock climbing class"
@@ -178,8 +186,10 @@ label ch122:
     hide soleil angry with dissolve
 
     "The girl scurries off into the distance."
+    #Play brisk walk sound effect
     "{i}I got a good amount of information today, I think we can call that a success!{/i}"
     #Who tf added this line??? " You know there is a suspicious person, and you have met a love interest, Soleil!"
+    stop music fadeout 1.0
     jump chapter02
 
 label tco_1:
@@ -199,7 +209,9 @@ label tco_1:
         zoom 0.75
 
     "???" "Ahhh! Errr, uhh, eeeeeeee!"
+    play sound "audio/bumpnyofu.mp3"
     mch "Shhhhh!"
+    play sound "audio/shhh!.mp3"
     "You look at the perpetrator, a girl who looks like she is at the verge of tears"
     mch "Let’s whisper here, ok?"
 
@@ -208,6 +220,7 @@ label tco_1:
 
     "???" "Shh! Ok, Nyofu understand!"
     mch "Well you are clearly being too loud..."
+    #Play masculine Hey! sound
     "Background" "Is someone there?"
     "You take Nyofu’s hand and run down the hallway"
 
@@ -248,6 +261,7 @@ label ch131:
         zoom 0.75
 
     nyf "Nyofu thinks you would have to be trespassing to get to the old school buildings..."
+    #The i can't let my past demons keep me locked up part is better as a thought. Doesn't make sense to say it out loud.
     mch "Nyofu, you are right. Unfortunately, I have to do this. I can’t let my past demons keep me locked up in their grasp for my lifetime, I have to do as much as I can, so I don’t regret anything afterwards."
     nyf "Nyofu thinks you might be the suspicious person..."
     mch "What? How? I’m not suspicious!"
@@ -256,8 +270,10 @@ label ch131:
     show nyofu cute at center:
         zoom 1.5
 
+    #PLay Nyofu laugh sound effect?
     "You and Nyofu start laughing."
 
+    stop music fadeout 1.0
     jump chapter02
 
 label ch132:
@@ -278,4 +294,5 @@ label ch132:
 
     #scene of mc training spot
 
+    stop music fadeout 1.0
     jump chapter02
