@@ -292,13 +292,6 @@ label ch241:
     "The air is eerie. A dusty wind peaks up as you feel a storm coming."
     "In the distance, a girl leans on one of the pillars at the entrance checking her phone while drinking juice. She looks up and notices you."
 
-<<<<<<< HEAD
-    #note: use one of the discarded character designs for this character  
-    #Female Hey! sound effect  
-    "(random girl)" "Hey, you!"
-    "(random girl)" "Yes, you- the guy looking behind to find someone else."
-    "(random girl)" "You're not supposed to be wandering around here. What are you doing here?"
-=======
     #note: use one of the discarded character designs for this character
     
     show ilana angry at center with dissolve:
@@ -307,7 +300,6 @@ label ch241:
     "???" "Hey, you!"
     "???" "Yes, you- the one looking behind to find someone else."
     "???" "You're not supposed to be wandering around here. What are you doing here?"
->>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
     mch "Why are {i}you{/i} here?"
     
     show ilana happy with dissolve:

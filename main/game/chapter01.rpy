@@ -45,11 +45,7 @@ label chapter01:
 
     "Laughter erupts"
 
-<<<<<<< HEAD
     "From the crowd""Oh yeah? What are you going to do about it? Cast that one spell you know?"
-=======
-    "From the crowd""Oh yeah? What are you going to do about it? Cast the only spell that you know?"
->>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
 
     "You don't mention that your magical abilites have only awakened recently, and you haven't had time to learn a single spell as this is your first week at school"
 
@@ -86,12 +82,7 @@ label lsp_1:
     "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it ugly."
     "One side of the hall is lined with strong, thick doors made of dark oak. They seem strangely strong."
     "You see no sign of activity in the corridor, but whenever a door is opened bright flashes of light and sound from people practising their respective magic can be heard."
-<<<<<<< HEAD
     #Play walking sound and creak
-=======
-
-    scene bg training_room with dissolve
->>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
     "You walk down the hallway until you find an unoccupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
     "The room lies dauntingly empty save for the arcane etchings on the wall and floor."
     "The room appears to be both neverending yet cramped at the same time. You squint, trying to judge how far away the rooms are, only to feel more and more disoriented."
