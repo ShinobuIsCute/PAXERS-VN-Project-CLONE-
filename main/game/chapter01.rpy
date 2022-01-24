@@ -3,7 +3,8 @@ label chapter01:
     scene bg classroom with dissolve
     show silhouettes
 
-    play music normalDaySchool fadein 2.0
+    play music sadatFav fadein 2.0
+    # play music normalDaySchool fadein 2.0
     "*Background whispering*""Oh my god did you hear about that girl who went missing yesterday?"
     "*Background whispering*""Are you serious? Another one? How long is this going to go on for?"
     "*Background whispering*""Maybe she just felt really sick and left school?"

@@ -1,11 +1,6 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-<<<<<<< HEAD
-  File "game/chapter02.rpy", line 266, in script
-    jump chapter03
-ScriptError: could not find label 'chapter03'.
-=======
   File "renpy/common/00keymap.rpy", line 469, in script
     python hide:
   File "renpy/common/00keymap.rpy", line 469, in <module>
@@ -13,20 +8,10 @@ ScriptError: could not find label 'chapter03'.
   File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
     renpy.save("_reload-1", "reload save game")
 Exception: Could not pickle <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>. (perhaps store.random = <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>)
->>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-<<<<<<< HEAD
-  File "game/chapter02.rpy", line 266, in script
-    jump chapter03
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ast.py", line 1773, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\script.py", line 917, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'chapter03'.
-=======
   File "renpy/common/00keymap.rpy", line 469, in script
     python hide:
   File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/ast.py", line 928, in execute
@@ -46,13 +31,8 @@ ScriptError: could not find label 'chapter03'.
   File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/python.py", line 2342, in module_pickle
     raise Exception("Could not pickle {!r}.".format(module))
 Exception: Could not pickle <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>. (perhaps store.random = <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>)
->>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
 
-Windows-10-10.0.19042
-Ren'Py 8.0.0.22011702n
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
 donor 1.0
-<<<<<<< HEAD
-Sun Jan 23 12:27:35 2022
-=======
-Sun Jan 23 22:48:20 2022
->>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
+Mon Jan 24 20:28:25 2022

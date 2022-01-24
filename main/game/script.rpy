@@ -29,7 +29,8 @@ image bg teacher = "bg teacher's door.jpg"
 image bg village = "bg village.jpg"
 image bg oldschool_entrance = "bg old school entrance.jpg"
 image bg training_room = "bg training room.jpg"
-
+image bg oldschool_hallway = "bg old school hallway.jpg"
+image bg oldschool_room = "bg old school room.jpg"
 
 init:
 
@@ -44,6 +45,7 @@ init:
     define oldSchoolBuilding = "audio/music/old school buildings.mp3"
     define trainingRoomTheme = "audio/music/training room theme.mp3"
     define flashback = "audio/music/flashback.mp3"
+    define sadatFav = "audio/music/main menu.mp3"
     
     #initialising flags
     default met_nyf = False 
