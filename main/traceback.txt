@@ -1,27 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/chapter01.rpy", line 87, in script
-    "You walk down the hallway until you find an unoccupied room. Pushing open the door with some effort."
-OSError: Couldn't find file ''.
+  File "game/chapter01.rpy", line 163, in script
+    hide soleil angry with dissolve
+OSError: Couldn't find file 'audio.footstepsaway122(1st).mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter01.rpy", line 87, in script
-    "You walk down the hallway until you find an unoccupied room. Pushing open the door with some effort."
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ast.py", line 736, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\exports.py", line 1419, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\character.py", line 1239, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\character.py", line 900, in do_display
-    display_say(who,
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\character.py", line 647, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/chapter01.rpy", line 163, in script
+    hide soleil angry with dissolve
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ast.py", line 1459, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\exports.py", line 1684, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\display\core.py", line 2774, in do_with
+    return self.interact(trans_pause=True,
   File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\display\core.py", line 3336, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
   File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\display\core.py", line 4036, in interact_core
@@ -39,9 +33,9 @@ Full traceback:
     rv = renpy.loader.load(fn)
   File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\loader.py", line 804, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file ''.
+OSError: Couldn't find file 'audio.footstepsaway122(1st).mp3'.
 
 Windows-10-10.0.19042
 Ren'Py 8.0.0.22011702n
 donor 1.0
-Tue Jan 25 15:46:34 2022
+Tue Jan 25 16:51:04 2022

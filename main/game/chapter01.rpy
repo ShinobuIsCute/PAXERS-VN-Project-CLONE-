@@ -1,7 +1,6 @@
 label chapter01:
     #random comment
     scene bg classroom with dissolve
-    show silhouettes
 
     play music sadatFav fadein 2.0
     # play music normalDaySchool fadein 2.0
@@ -14,7 +13,6 @@ label chapter01:
     "*Background whispering*""We won’t know for sure unless we ask the teachers!"
     "*Background whispering*""I tried many teachers. They always say \”It’s private information.\”"
 
-    hide silhouettes
     show mch thinking
 
     stop music fadeout 1.0
@@ -40,7 +38,6 @@ label chapter01:
     "{i}This time I can do something!{/i}"
 
     show mch speaking at left
-    show silhouettes at right
 
     mch"Tell me more, I will try to find the missing girls. Give me all the information you know!"
 
@@ -68,13 +65,13 @@ label chapter01:
         "I will..."
 
         "Go to afterschool tutoring to learn a spell":
-            jump lsp_1
+            jump ch11
         "Investigate around the school":
-            jump sch_1
+            jump ch12
         "Sneak into the teachers office":
-            jump tco_1
+            jump ch13
 
-label lsp_1:
+label ch11:
     scene bg hallway2 with dissolve
     stop music fadeout 1.0
     play music trainingRoomTheme
@@ -100,7 +97,7 @@ label lsp_1:
     stop music fadeout 1.0
     jump chapter02
 
-label sch_1:
+label ch12:
 
     #flag
     $ met_sol = True
@@ -162,7 +159,7 @@ label ch122:
 
     mch "Ok, I trust you."
 
-    play sound "audio.footstepsaway122(1st).mp3"
+    play sound "audio/footstepsaway122(1st).mp3"
     hide soleil angry with dissolve
 
     "You follow her to the rock climbing class"
@@ -194,7 +191,7 @@ label ch122:
     stop music fadeout 1.0
     jump chapter02
 
-label tco_1:
+label ch13:
     
     #flag
     $ met_nyf = True
@@ -210,10 +207,9 @@ label tco_1:
     show nyofu sad at center with hpunch:
         zoom 0.75
 
-    "???" "Ahhh! Errr, uhh, eeeeeeee!"
     play sound "audio/bumpnyofu.mp3"
+    "???" "Ahhh! Errr, uhh, eeeeeeee!"
     mch "Shhhhh!"
-    play sound "audio/shhh!.mp3"
     "You look at the perpetrator, a girl who looks like she is at the verge of tears"
     mch "Let’s whisper here, ok?"
 
@@ -287,6 +283,7 @@ label ch132:
     mch "My hand wasn’t sweaty at all!"
     nyf "....."
     mch "Anyway, I need information on the girls that have recently gone missing from this school."
+    #Should be Nyofu thinks MC is suspicious, pls no philanderer jokes
     nyf "Nyofu thinks %(name)s is a philanderer."
     mch "No, no, Nyofu I just want to help them. I should try and become better at my magic skills! Nyofu, can you teach me your magic spell?"
     nyf "Nyofu can help you learn a new magic spell!"
