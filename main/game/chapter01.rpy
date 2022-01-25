@@ -82,12 +82,12 @@ label lsp_1:
     "The iconic white and gold has always been part of Asteroth Academy's prestigious image, yet you've always found it ugly."
     "One side of the hall is lined with strong, thick doors made of dark oak. They seem strangely strong."
     "You see no sign of activity in the corridor, but whenever a door is opened bright flashes of light and sound from people practising their respective magic can be heard."
-    #Play walking sound and creak
+    play sound ""
     "You walk down the hallway until you find an unoccupied room. Pushing open the door with some effort, you find yourself in a large rectangular room."
     "The room lies dauntingly empty save for the arcane etchings on the wall and floor."
     "The room appears to be both neverending yet cramped at the same time. You squint, trying to judge how far away the rooms are, only to feel more and more disoriented."
     "{i}Spatial Magic. Perhaps I could learn that first{/i}"
-    #Play hum and water flowing and spash sound effect
+    play sound "audio/createsomedummies.mp3"
     "Some etching on the floor begin to glow, and water flows from them. The swirl until they form human shaped objects."
     "{i}Training dummies. hmmmmm, not bad. Not bad at all.{/i}"
 
@@ -139,7 +139,7 @@ label ch121:
     nrd "And that’s why you don’t talk to strangers you don’t know well. Sayonara."
     mch "Soleil, wait! I, uh, I didn’t know you were so intelligent! Please forgive me for being an idiot."
 
-    #Play brisk walk away sound
+    play sound "audio/footstepsaway.mp3"
     hide soleil angry with dissolve
 
     "Soleil is nowhere to be seen. Only a rolling cactus is there to hear your request."
@@ -158,7 +158,7 @@ label ch122:
 
     mch "Ok, I trust you."
 
-    #Play walk away sound
+    play sound "audio.footstepsaway122(1st).mp3"
     hide soleil angry with dissolve
 
     "You follow her to the rock climbing class"
@@ -184,7 +184,7 @@ label ch122:
     hide soleil angry with dissolve
 
     "The girl scurries off into the distance."
-    #Play brisk walk sound effect
+    play sound "audio/footstepsaway122(2nd).mp3"
     "{i}I got a good amount of information today, I think we can call that a success!{/i}"
     #Who tf added this line??? " You know there is a suspicious person, and you have met a love interest, Soleil!"
     stop music fadeout 1.0
@@ -268,7 +268,6 @@ label ch131:
     show nyofu cute at center:
         zoom 1.5
 
-    #PLay Nyofu laugh sound effect?
     "You and Nyofu start laughing."
 
     stop music fadeout 1.0
@@ -289,6 +288,7 @@ label ch132:
     nyf "Nyofu can help you learn a new magic spell!"
 
     #MC LEARNS A NEW ICE SPELL HERE!!!
+    #Ethan and Xinyang maybe do this part.
 
     scene bg training_room with dissolve
 

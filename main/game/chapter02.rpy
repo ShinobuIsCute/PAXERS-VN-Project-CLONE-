@@ -6,13 +6,19 @@ label chapter02:
     
     #scene MC house
 
-    #Play white noise "music"
+    play sound "audio/powertvon.mp3"
+    pause(4.0)
+    play music "audio/music/whitenoisemusic.mp3"
+    
     "TV" "Another person has gone missing from Asteroth Academy while a missing person in a related case has just been found heavily injured and was recently taken to hospital via helicopter for urgent medical care"
     "{i}I can't let this happen to one of my classmates. I can't handle the regret knowing I could've at least tried to do something. Wait. What time is it? Oh no, I'm going to be late for school! I guess I'll have to skip breakfast to make it there on time.{/i}"
     #Play running away sound
-    #Stop
+    #Stop white noise
 
+    stop music fadeout 2.0
     scene bg classroom with dissolve
+    pause(2.0)
+    play music "audio/music/normal day in the school.mp3"
 
     mch "That, must be, a new record, for me."
     mch "No one in the class says a word during the lecture, the atmosphere morbid, like a funeral for an insignificant human"
@@ -238,10 +244,11 @@ label ch231:
 
     scene bg teacher with dissolve
 
+    stop music fadeout 2.0
     "...and then stand outside the teachers office."
 
     #scene of inside of teachers office
-
+    play music "audio/music/inside the teachers office.mp3" fadein 2.0
     "{i}I’ll sneak inside and try to find some clues - maybe a document that hasn’t been shred yet? I’d assume something like that would be near the shredder.{/i}"
     "You sneak inside the teachers office, surprised to notice that there are only two teachers inside."
 
@@ -268,7 +275,7 @@ label ch232:
     
     #Stop playing background whisperings with slow fade 2.0 maybe
     # MC learns a new spell here
-    
+    stop music fadeout 2.0
     jump chapter03
 
 label ch233:
@@ -282,6 +289,7 @@ label ch233:
     #Stop playing background whisperings with slow fade 2.0 maybe
     # MC learns a new spell here
 
+    stop music fadeout 2.0
     jump chapter03
 #
 label ch241:
@@ -325,6 +333,7 @@ label ch241_a:
     ila "I bet you and I are the only ones in this part of the campus right now–"
 
     #*SWISH/FOOTSTEPS SOUND* 
+    stop music
     """
     A Dark figure dashes through one of the windows on the 5th floor.
     Note: can do a pan-in too.
@@ -344,6 +353,7 @@ label ch241_a:
 
     "You race inside the old school building and make your way upto the fifth floor."
 
+    play music "audio/music/old school buildings.mp3" fadein 1.0
     "{i}Someone was recently here. This place reeks of earth.{/i}"
 
     jump cha241_b
@@ -447,6 +457,7 @@ label cha242_b:
 
     show ilana happy at left with dissolve:
         zoom 0.8
+    stop music fadeout 5.0
 
     menu:
 

@@ -1,58 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-<<<<<<< HEAD
-  File "game/chapter02.rpy", line 266, in script
-    jump chapter03
-ScriptError: could not find label 'chapter03'.
-=======
-  File "renpy/common/00keymap.rpy", line 469, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-Exception: Could not pickle <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>. (perhaps store.random = <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>)
->>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
+  File "game/chapter02.rpy", line 10, in script
+    pause(delay = 4.0)
+  File "renpy/common/000statements.rpy", line 449, in execute_pause
+    delay = eval(p["delay"])
+SyntaxError: invalid syntax (game/chapter02.rpy, line 10)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-<<<<<<< HEAD
-  File "game/chapter02.rpy", line 266, in script
-    jump chapter03
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ast.py", line 1773, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\script.py", line 917, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'chapter03'.
-=======
-  File "renpy/common/00keymap.rpy", line 469, in script
-    python hide:
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/ast.py", line 928, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/python.py", line 2245, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/loadsave.py", line 420, in save
-    reraise(t, e, tb)
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/loadsave.py", line 401, in save
-    dump((roots, renpy.game.log), logf)
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/loadsave.py", line 49, in dump
-    cPickle.dump(o, f, cPickle.HIGHEST_PROTOCOL)
-  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/python.py", line 2342, in module_pickle
-    raise Exception("Could not pickle {!r}.".format(module))
-Exception: Could not pickle <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>. (perhaps store.random = <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>)
->>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
+  File "game/chapter02.rpy", line 10, in script
+    pause(delay = 4.0)
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ast.py", line 2031, in execute
+    self.call("execute")
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ast.py", line 2019, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\statements.py", line 280, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 449, in execute_pause
+    delay = eval(p["delay"])
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\python.py", line 2298, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\python.py", line 857, in py_compile
+    raise e
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\python.py", line 818, in py_compile
+    raise orig_e
+  File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\python.py", line 811, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/chapter02.rpy, line 10)
 
 Windows-10-10.0.19042
 Ren'Py 8.0.0.22011702n
 donor 1.0
-<<<<<<< HEAD
-Sun Jan 23 12:27:35 2022
-=======
-Sun Jan 23 22:48:20 2022
->>>>>>> 9276c89b2830fd1d667978daacaae0db10fb1795
+Mon Jan 24 23:52:40 2022

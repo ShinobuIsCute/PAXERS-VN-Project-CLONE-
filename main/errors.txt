@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapter02.rpy", line 424: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
-    zoom 0.8
-    ^
+File "game/chapter02.rpy", line 10: expected statement.
+    renpy.pause(delay = 4.0)
+                            ^
 
-File "game/chapter02.rpy", line 430: end of line expected.
-    show ilana happy with dissolve at left
-                                   ^
-
-Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Jan 22 15:42:42 2022
+Ren'Py Version: Ren'Py 8.0.0.22011702n
+Mon Jan 24 23:49:30 2022
