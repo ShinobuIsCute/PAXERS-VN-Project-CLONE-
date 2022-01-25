@@ -37,7 +37,7 @@ init:
     define mch = Character("[name]", color = "#808080")
     define tch = Character("Mr Jaffa", color = "#0000ff")
     define nrd = Character("Soleil", color = "#ff0000")
-    define nyf = Character("Nyofu", color = "#ffffff")
+    define nyf = Character("Nyofu", color = "#F33A6A")
     define ila = Character("Ilana", color="#9339cf")
 
     define normalDaySchool = "audio/music/normal day in the school.mp3"
@@ -63,4 +63,4 @@ label start:
         name = renpy.input("What is your name?").title()
         name = name.strip() or "The Nameless One"
 
-    jump chapter01
+    jump chapter02

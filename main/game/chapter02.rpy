@@ -1,6 +1,6 @@
 label chapter02:
-    #random comment
-    scene bg black_screen
+    
+    scene bg black_screen with dissolve
 
     "{i}Waking up is such a pain. Maybe something interesting will happen today! That's how I should be thinking, but for some reason…{/i}"
     
@@ -10,7 +10,7 @@ label chapter02:
     pause(4.0)
     play music "audio/music/whitenoisemusic.mp3"
     
-    "TV" "Another person has gone missing from Asteroth Academy while a missing person in a related case has just been found heavily injured and was recently taken to hospital via helicopter for urgent medical care"
+    "TV" "Another person has gone missing from Asteroth Academy while a missing person in a related case has just been found heavily injured and was recently taken to hospital via a helicopter for urgent medical care."
     "{i}I can't let this happen to one of my classmates. I can't handle the regret knowing I could've at least tried to do something. Wait. What time is it? Oh no, I'm going to be late for school! I guess I'll have to skip breakfast to make it there on time.{/i}"
     #Play running away sound
     #Stop white noise
@@ -20,8 +20,8 @@ label chapter02:
     pause(2.0)
     play music "audio/music/normal day in the school.mp3"
 
-    mch "That, must be, a new record, for me."
-    mch "No one in the class says a word during the lecture, the atmosphere morbid, like a funeral for an insignificant human"
+    "{i}That, must be, a new record, for me.{/i}"
+    "{i}No one in the class says a word during the lecture, the atmosphere morbid, like a funeral for an insignificant human.{/i}"
 
     #Nya Fooo sound effect
     "outside of classroom" "~Nyofuuuu~"
@@ -86,7 +86,7 @@ label ch211:
 
         nyf "Nyofu is only cheerful on the outside. Nyofu wants to help the missing girls like Nyofu!"
         "{i}I'm not sure about the 'like Nyofu' part...{/i}"
-        mch "I'm trying to find some clues about the girls that have gone missing as well. Do you know anyplace that I should go and investigate?"
+        mch "I'm trying to find some clues about the girls that have gone missing as well. Do you know a place that I should go and investigate?"
         nyf "Nyofu thinks you are suspicious. Nyofu thinks Nyofu saw someone suspicious around the old school buildings but not as suspicious as you."
         mch "How am I suspicious? I guess I haven't introduced myself. I'm %(name)s."
         
@@ -105,10 +105,10 @@ label ch211:
 
         menu:
 
-            "Apologise to Nyofu for asking a personal question":
+            "Apologise to Nyofu for asking a personal question.":
                 jump ch212
             
-            "Tell Nyofu that she looks cute with the halo":
+            "Tell Nyofu that she looks cute with the halo.":
                 jump ch213
 
     #else statement (has met Nyofu)
@@ -132,10 +132,10 @@ label ch211:
 
         menu:
 
-            "Apologise to Nyofu for asking a personal question":
+            "Apologise to Nyofu for asking a personal question.":
                 jump ch212
             
-            "Tell Nyofu that she looks cute with the halo":
+            "Tell Nyofu that she looks cute with the halo.":
                 jump ch213
 label ch212:
     
@@ -152,7 +152,7 @@ label ch212:
 
 label ch213:
 
-    mch "I think the halo looks cute on Nyofu, no matter what reason you have it for"
+    mch "I think the halo looks cute on Nyofu, no matter what reason you have it for."
     nyf "Nyofu is very happy to hear that but Nyofu is always cute even without the halo!"
     mch "I can't argue with that!"
 
@@ -225,7 +225,7 @@ label ch221:
         show soleil angry at center with dissolve:
             zoom 1.7
         
-        nrd "You better come back with good information! Otherwise you’ll see me come after you…"
+        nrd "You better come back with good information! Otherwise you’ll see me come after you..."
         "Soleil glares angrily at the MC, scaring him into submission."
 
         hide soleil angry with dissolve
@@ -236,11 +236,11 @@ label ch231:
 
     scene bg classroom with dissolve
 
-    "As the bell for the final period of the school ends, you casually walk outside the class …"
+    "As the bell for the final period of the school ends, you casually walk outside the class..."
     
     scene bg hallway1 with dissolve
 
-    "...into the hallway…"
+    "...into the hallway..."
 
     scene bg teacher with dissolve
 
@@ -253,20 +253,20 @@ label ch231:
     "You sneak inside the teachers office, surprised to notice that there are only two teachers inside."
 
     #Background whisperings, this should be comforably long
-    "???" "...I’m surprised their meeting is taking so long…"
-    "???" "....yes, maybe they are talking about the next…."
-    "???" "...I’ve heard from the others…"
-    "???" "...there might be an experiment tomorrow after school…"
-    "???" "...oh I’ve heard of that too…"
-    "???" "...it was going to be in the chem…"
-    "???" "...age room if I remember correctly…"
+    "???" "...I’m surprised their meeting is taking so long..."
+    "???" "....yes, maybe they are talking about the next..."
+    "???" "...I’ve heard from the others..."
+    "???" "...there might be an experiment tomorrow after school..."
+    "???" "...oh I’ve heard of that too..."
+    "???" "...it was going to be in the chem..."
+    "???" "...age room if I remember correctly."
 
     "{i}I need to make sure I don’t get found, that was definitely confidential information. From what I heard, I would deduce that something is going to happen in the chemistry storage room after school?{/i}"
 
     menu:
-        "Look around the shredder for documents":
+        "Look around the shredder for documents.":
             jump ch232
-        "Leave the teachers office":
+        "Leave the teachers office.":
             jump ch233
 
 label ch232:
@@ -306,7 +306,7 @@ label ch241:
         zoom 0.9
 
     "???" "Hey, you!"
-    "???" "Yes, you- the one looking behind to find someone else."
+    "???" "Yes, you — the one looking behind to find someone else."
     "???" "You're not supposed to be wandering around here. What are you doing here?"
     mch "Why are {i}you{/i} here?"
     
@@ -320,7 +320,7 @@ label ch241:
         "%(name)s.":
             ila "Nice to meet you, %(name)s. My name is— oh. Nevermind."
             jump ch241_a
-        "James. James Bo-":
+        "John.":
             ila "Nice try, %(name)s. Even though you don’t know me, I have known about you for a long time."
             "You smile as you find yourself a stalker."
             jump ch241_a
@@ -334,12 +334,12 @@ label ch241_a:
 
     #*SWISH/FOOTSTEPS SOUND* 
     stop music
-    """
-    A Dark figure dashes through one of the windows on the 5th floor.
-    Note: can do a pan-in too.
-    Make it short like 0.5 seconds
-    Stop the music here.
-    """
+    
+    "A Dark figure dashes through one of the windows on the 5th floor."
+    #Note: can do a pan-in too.
+    #Make it short like 0.5 seconds
+    #Stop the music here.
+    
 
     mch "Did you see that?"
 
@@ -351,10 +351,10 @@ label ch241_a:
 
     hide ilana happy with dissolve
 
-    "You race inside the old school building and make your way upto the fifth floor."
+    "{i}You race inside the old school building and make your way upto the second floor.{/i}"
 
     play music "audio/music/old school buildings.mp3" fadein 1.0
-    "{i}Someone was recently here. This place reeks of earth.{/i}"
+    "{i}Someone was recently here. The hallway has a trail of mud that disappears into the distance.{/i}"
 
     jump cha241_b
 
@@ -362,6 +362,7 @@ label ch241_a:
 label cha241_b:
     play music oldSchoolBuilding
     scene bg oldschool_hallway with dissolve
+    #change font here
     "Roll a d20 to make a perception check."
     python:
         import random
@@ -378,11 +379,11 @@ label cha241_b:
                 $ cha241Count += 1
                 "After trying %(cha241Count)s doors, you still feel like this is not going anywhere."
                 menu:
-                    "Check the next door":
+                    "Check the next door.":
                         jump cha241Loop
-                    "Make a plan":
+                    "Make a plan.":
                         "You sit down on the dirty floor and meditate."
-                        "Time slows down"
+                        "Time slows down."
                         "You get up with gleaming eyes."
                         jump cha242
 
@@ -403,7 +404,6 @@ label cha242:
 
 label cha242_HOT:
 
-    #Ouch! sound effect
     "A HOT KNOB!"
 
     "Finally."
@@ -415,15 +415,15 @@ label cha242_a:
             play sound "audio/kickdoor.mp3"
             "The door doesn’t even budge."
             jump cha242_a
-        "Use a plant spell":
+        "Use a plant spell.":
             #Play plant spell sound and break lock sound
             "You conjure a seed inside the lock, then growing it, the lack of space inside means the plant forces its way outwards, breaking the lock."
             jump cha242_b
-        "Use a water spell":
+        "Use a water spell.":
             #Play water spell sound, soft water juggling, mechanical sounds and click.
             "You conjure some water and move it around the lock randomly until you hear a click, to which you find you have unlocked the door."
             jump cha242_b
-        "Use telekinesis":  
+        "Use telekinesis.":  
             #Play mechanical sound effects and click
             "Using telekinesis, you try to shift some parts until the lock clicks, you put your hand on the door knob and it opens."
             jump cha242_b
