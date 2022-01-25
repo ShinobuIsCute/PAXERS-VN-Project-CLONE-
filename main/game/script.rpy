@@ -29,7 +29,8 @@ image bg teacher = "bg teacher's door.jpg"
 image bg village = "bg village.jpg"
 image bg oldschool_entrance = "bg old school entrance.jpg"
 image bg training_room = "bg training room.jpg"
-
+image bg oldschool_hallway = "bg old school hallway.jpg"
+image bg oldschool_room = "bg old school room.jpg"
 
 init:
 
@@ -44,9 +45,10 @@ init:
     define oldSchoolBuilding = "audio/music/old school buildings.mp3"
     define trainingRoomTheme = "audio/music/training room theme.mp3"
     define flashback = "audio/music/flashback.mp3"
+    define sadatFav = "audio/music/main menu.mp3"
     
     #initialising flags
-    default met_nyf = False 
+    default met_nyf = False
     default met_sol = False
     default d1_nyf_clue = False
     default d1_sol_clue = False
@@ -58,7 +60,7 @@ label start:
         for i in range(10):
             print(spells[i])
     python:
-        name = renpy.input("What is your name?")
+        name = renpy.input("What is your name?").title()
         name = name.strip() or "The Nameless One"
 
     jump chapter01

@@ -303,7 +303,7 @@ label ch241:
     #note: use one of the discarded character designs for this character
     
     show ilana angry at center with dissolve:
-        zoom 1.5
+        zoom 0.9
 
     "???" "Hey, you!"
     "???" "Yes, you- the one looking behind to find someone else."
@@ -311,7 +311,7 @@ label ch241:
     mch "Why are {i}you{/i} here?"
     
     show ilana happy with dissolve:
-        zoom 1.5
+        zoom 0.9
     
     "???" "Answering a question with a question— not a bad move."
     ila "Name’s Ilana. What’s yours?"
@@ -429,7 +429,7 @@ label cha242_a:
             jump cha242_b
 
 label cha242_b:
-    scene oldschool_room with dissolve
+    scene bg oldschool_room with dissolve
     stop music fadeout 2.0
     play music "audio/music/interestingclues.mp3" fadein 2.0
     "The room is mostly dark, except some light that floods in from an open window."
@@ -442,7 +442,9 @@ label cha242_b:
     "In one of the papers, you can see some instructions, though you don't understand most of it."    
     "Another page has some golem drawings."    
     "From your understanding, the pages tell you how to transmute earth golems out of rock."    
-    "You fold the papers and put them in your pocket."    
+    "You fold the papers and put them in your pocket."  
+
+    scene bg oldschool_entrance with dissolve  
     "You make your way to the open window."    
     "(inner thought)" "What kind of guy would jump out of a fifth floor just to escape me?"    
     "As you look down through the window, you see Ilana heading off to the main school building."
@@ -462,7 +464,7 @@ label cha242_b:
     menu:
 
         ".........................":    
-            ila "{i}waves her hand and smiles.{/i}"
+            ila "{i}looks back and winks as she leaves.{/i}"
 
     # jump chapter03
 

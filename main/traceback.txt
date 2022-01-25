@@ -1,15 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+<<<<<<< HEAD
   File "game/chapter02.rpy", line 10, in script
     pause(delay = 4.0)
   File "renpy/common/000statements.rpy", line 449, in execute_pause
     delay = eval(p["delay"])
 SyntaxError: invalid syntax (game/chapter02.rpy, line 10)
+=======
+  File "renpy/common/00keymap.rpy", line 469, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 469, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+Exception: Could not pickle <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>. (perhaps store.random = <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>)
+>>>>>>> d945d5daffb3dab80a8b883cfda52106bb7a1cb3
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
   File "game/chapter02.rpy", line 10, in script
     pause(delay = 4.0)
   File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\ast.py", line 2031, in execute
@@ -29,8 +40,33 @@ Full traceback:
   File "C:\Users\Ethan\Downloads\renpy-7.4.11-sdk\renpy\python.py", line 811, in py_compile
     tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
 SyntaxError: invalid syntax (game/chapter02.rpy, line 10)
+=======
+  File "renpy/common/00keymap.rpy", line 469, in script
+    python hide:
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00keymap.rpy", line 469, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/loadsave.py", line 420, in save
+    reraise(t, e, tb)
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/loadsave.py", line 401, in save
+    dump((roots, renpy.game.log), logf)
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/loadsave.py", line 49, in dump
+    cPickle.dump(o, f, cPickle.HIGHEST_PROTOCOL)
+  File "C:\Users\sadat\Desktop\renpy-7.4.11-sdk/renpy/python.py", line 2342, in module_pickle
+    raise Exception("Could not pickle {!r}.".format(module))
+Exception: Could not pickle <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>. (perhaps store.random = <module 'random' from 'C:\Users\sadat\Desktop\renpy-7.4.11-sdk\lib\python2.7/random.pyo'>)
+>>>>>>> d945d5daffb3dab80a8b883cfda52106bb7a1cb3
 
-Windows-10-10.0.19042
-Ren'Py 8.0.0.22011702n
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
 donor 1.0
+<<<<<<< HEAD
 Mon Jan 24 23:52:40 2022
+=======
+Mon Jan 24 20:28:25 2022
+>>>>>>> d945d5daffb3dab80a8b883cfda52106bb7a1cb3

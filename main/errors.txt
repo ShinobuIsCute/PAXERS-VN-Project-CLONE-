@@ -2,9 +2,18 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/chapter02.rpy", line 10: expected statement.
     renpy.pause(delay = 4.0)
                             ^
 
 Ren'Py Version: Ren'Py 8.0.0.22011702n
 Mon Jan 24 23:49:30 2022
+=======
+File "game/chapter02.rpy", line 343: end of line expected.
+    hide ilana happy with dissolve:
+                                  ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Mon Jan 24 19:58:26 2022
+>>>>>>> d945d5daffb3dab80a8b883cfda52106bb7a1cb3

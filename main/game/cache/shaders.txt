@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 renpy.geometry renpy.imagedissolve
 renpy.alpha renpy.geometry renpy.texture
 renpy.solid
@@ -14,3 +15,21 @@ renpy.matrixcolor renpy.texture
 =======
 renpy.dissolve renpy.geometry
 renpy.ftl
+=======
+renpy.alpha renpy.texture
+=======
+renpy.geometry renpy.imagedissolve
+renpy.alpha renpy.geometry renpy.texture
+renpy.solid
+renpy.texture
+renpy.geometry renpy.matrixcolor renpy.texture
+renpy.imagedissolve renpy.imagedissolve
+renpy.dissolve renpy.geometry
+renpy.dissolve renpy.dissolve
+renpy.geometry renpy.texture
+renpy.matrixcolor renpy.texture
+renpy.ftl
+renpy.geometry renpy.solid
+<<<<<<< HEAD
+>>>>>>> 9cccfc2c3e458f2be67c65789dd454f890d79318
+>>>>>>> d945d5daffb3dab80a8b883cfda52106bb7a1cb3
