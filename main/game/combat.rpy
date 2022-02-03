@@ -1,47 +1,50 @@
-$actionNumber = 0
-python:
-    class Unit:
-
-        def __init__(self, hp, ad)
-            self.hp = none
-            self.attacks = none
-
-        def attack(self,target)
-            target.hp = target.hp - self.ad
+# Commented out until bugs fixed
 
 
+#  $actionNumber = 0
+# python:
+#     class Unit:
 
-mch = Unit(25, 3)
-golem = Unit(20,2)
-label ComCho:
-    while actionNumber == 0:
-        menu:
-            "Attack":
-                call attCho
+#         def __init__(self, hp, ad)
+#             self.hp = none
+#             self.attacks = none
 
-            "Spells":
-                call speCho
+#         def attack(self,target)
+#             target.hp = target.hp - self.ad
 
-            "Backpack":
-                call bacCHo
 
-            #Not entirely sure what we should have as the fourth combat option yet.
-            "Defend":
-                call defCho
-    return
 
-label attCho:
-    menu:
+# mch = Unit(25, 3)
+# golem = Unit(20,2)
+# label ComCho:
+#     while actionNumber == 0:
+#         menu:
+#             "Attack":
+#                 call attCho
 
-    return
-label speCho:
-    "WIP, sorry!"
-    return
-label bacCho:
-    "WIP, sorry!"
+#             "Spells":
+#                 call speCho
 
-    return
-label defCho
-    "WIP, sorry!"
+#             "Backpack":
+#                 call bacCHo
 
-    return
+#             #Not entirIely sure what we should have as the fourth combat option yet.
+#             "Defend":
+#                 call defCho
+#     return
+
+# label attCho:
+#     menu:
+
+#     return
+# label speCho:
+#     "WIP, sorry!"
+#     return
+# label bacCho:
+#     "WIP, sorry!"
+
+#     return
+# label defCho
+#     "WIP, sorry!"
+
+#     return

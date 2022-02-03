@@ -60,7 +60,10 @@ label start:
         for i in range(10):
             print(spells[i])
     python:
-        name = renpy.input("What is your name?").title()
-        name = name.strip() or "The Nameless One"
+        #remove the comments when released
+
+        # name = renpy.input("What is your name?").title()
+        # name = name.strip() or "The Nameless One"
+        name = "Anon"
 
     jump chapter02

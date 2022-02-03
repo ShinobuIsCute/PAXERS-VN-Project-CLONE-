@@ -313,7 +313,7 @@ label ch241:
     show ilana happy with dissolve:
         zoom 0.9
     
-    "???" "Answering a question with a question— not a bad move."
+    "???" "Answering a question with a question— are we?"
     ila "Name’s Ilana. What’s yours?"
 
     menu:

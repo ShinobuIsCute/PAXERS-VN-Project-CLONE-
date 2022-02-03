@@ -2,18 +2,25 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
-File "game/chapter02.rpy", line 10: expected statement.
-    renpy.pause(delay = 4.0)
-                            ^
+File "game/combat.rpy", line 14: expected statement.
+    mch = Unit(25, 3)
+        ^
 
-Ren'Py Version: Ren'Py 8.0.0.22011702n
-Mon Jan 24 23:49:30 2022
-=======
-File "game/chapter02.rpy", line 343: end of line expected.
-    hide ilana happy with dissolve:
-                                  ^
+File "game/combat.rpy", line 15: expected statement.
+    golem = Unit(20,2)
+          ^
+
+File "game/combat.rpy", line 34: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/combat.rpy", line 44: expected ':' not found.
+    label defCho
+                ^
+
+File "game/combat.rpy", line 5: invalid syntax
+        def __init__(self, hp, ad)
+    
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Mon Jan 24 19:58:26 2022
->>>>>>> d945d5daffb3dab80a8b883cfda52106bb7a1cb3
+Thu Feb  3 22:02:38 2022
