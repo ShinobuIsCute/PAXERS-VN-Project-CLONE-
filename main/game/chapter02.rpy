@@ -10,8 +10,9 @@ label chapter02:
     pause(4.0)
     play music "audio/music/whitenoisemusic.mp3"
     
-    "TV" "Another person has gone missing from Asteroth Academy while a missing person in a related case has just been found heavily injured and was recently taken to hospital via a helicopter for urgent medical care."
-    "{i}I can't let this happen to one of my classmates. I can't handle the regret knowing I could've at least tried to do something. Wait. What time is it? Oh no, I'm going to be late for school! I guess I'll have to skip breakfast to make it there on time.{/i}"
+    "TV" "Another person has gone missing from Asteroth Academy while a missing person in a related case has been found heavily injured and was urgently hospitalised."
+    "{i}I can't let this happen to one of my classmates. I can't handle the regret knowing I could've at least tried to do something. Wait. What time is it?"
+    "{i}Oh no, I'm going to be late for school! I guess I'll have to skip breakfast to make it there on time.{/i}"
     #Play running away sound
     #Stop white noise
 
