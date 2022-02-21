@@ -66,4 +66,4 @@ label start:
         # name = name.strip() or "The Nameless One"
         name = "Anon"
 
-    jump chapter02
+    jump chapter01
